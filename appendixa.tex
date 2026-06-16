@@ -5,15 +5,15 @@
 
 \chapter{Code listing}
 
-This example uses the \texttt{listings} package.
+% This example uses the \texttt{listings} package.
 
 \bigskip
 
 \lstdefinestyle{mystyle}{
-    backgroundcolor=\color{CadetBlue!15!white},   
-    commentstyle=\color{Red3},
-    numberstyle=\tiny\color{gray},
-    stringstyle=\color{Blue3},
+    backgroundcolor=\color{gray!5},   
+    commentstyle=\color{gray}\itshape,
+    numberstyle=\tiny\color{gray!50},
+    stringstyle=\color{black},
     basicstyle=\small\ttfamily,
     breakatwhitespace=false,         
     breaklines=true,                 
@@ -24,44 +24,926 @@ This example uses the \texttt{listings} package.
     showtabs=false,                  
     tabsize=2
 }%
-\lstset{language=[5.3]Lua,style={mystyle}}%
+
+\lstset{language=Matlab, style={mystyle}}%
+\subsubsection{Functions used for processing behavioural data}
+\begin{lstlisting}
+    function behavProcess(myFolder, pattern, destFin, timeprd, incmt, rescaleData, deadzone, normalizeData, dzFac, val_ind, arl_ind, RangeMax, RangeMin, InputMax, InputMin)
+    % The following code takes in raw participant behavioural data from
+    % specified location (myFolder), downsamples it to specified timeperiod
+    % (timeprd), with specified increments(incmts). Then it rescales the
+    % downsampled participant data to a specified range (RangeMax,
+    % RangeMin) from the inherent input range (InputMax, InputMin). If the
+    % deadzone variable is true it then applies a deadzone at the center of
+    % a specified threshold (dzFac). Finally it writes the processed data
+    % to a file named sub-%%_processed.csv
+
+    % Read in the file location details
+    filePattern = fullfile(myFolder, pattern); % Change to whatever pattern you need.
+    theFiles = dir(filePattern);
+
+    % Initialization of variables
+    timescale = (0:incmt:timeprd)';
+    val_data = zeros(length(timescale),length(theFiles));
+    arl_data = zeros(length(timescale),length(theFiles));
+    normVal = zeros(length(timescale),length(theFiles));
+    normArl = zeros(length(timescale),length(theFiles));
+    valData = zeros(length(timescale),length(theFiles));
+    arlData = zeros(length(timescale),length(theFiles));
+    
+    % DOWNSAMPLING
+    % Loop over file list and read in the behaviour data
+    for k = 1 : length(theFiles)
+        baseFileName = theFiles(k).name;
+        fullFileName = fullfile(theFiles(k).folder, baseFileName);
+        fprintf(1, 'Now reading %s\n', baseFileName);
+
+        % Read in the file
+        emo_data = readmatrix(fullFileName);
+
+        %Loop over the num of observations in the final table
+        
+        for i = 1:length(timescale)
+            % Timescale is a incmt multiple of every observation num
+            cond = round((i-1)*incmt,2);
+            % Check which timepoints come close to the established timepoint (cond)
+            [minVal,minInd] = min(abs(emo_data(:,2)-cond));
+            % Index out closest timepoint from the original data
+            val_data(i,k) = emo_data(minInd,val_ind);
+            arl_data(i,k) = emo_data(minInd,arl_ind);
+        end
+    end
+    
+    % RESCALING
+    % Rescale the valence and arousal datapoints to specified range
+    if rescaleData == true
+        for k = 1 : length(theFiles)
+            % Rescales the data to specified range
+            valData(:,k) = rescale(val_data(:,k),RangeMin,RangeMax,"InputMax",InputMax,"InputMin",InputMin);
+            arlData(:,k) = rescale(arl_data(:,k),RangeMin,RangeMax,'InputMax',InputMax,'InputMin',InputMin);
+        end
+    else
+        valData = val_data;
+        arlData = arl_data;
+    end
+    
+    % DEADZONING
+    % Apply deadzone and center participant data across participants
+    % within time points
+    if deadzone == true
+        for k = 1 : length(theFiles)
+            for rowInd = 1:length(timescale)
+                % Anything between +/- deadzone filter is made zero for
+                % both valence and arousal
+                if valData(rowInd,k) <= dzFac && valData(rowInd,k) >= -dzFac
+                   valData(rowInd,k) = 0;
+                end
+                if arlData(rowInd,k) <= dzFac && arlData(rowInd,k) >= -dzFac
+                   arlData(rowInd,k) = 0;
+                end
+            end
+        end
+    end
+    
+    % NORMALIZATION
+    if normalizeData == true
+        % Normalize participant responses
+        valData = normalize(valData, 1,"zscore");
+        arlData = normalize(arlData, 1,"zscore");
+    end
+    
+    % SAVING FINAL DATA
+    % Output the final data and save it to specified file format
+    for k = 1 : length(theFiles)
+        baseFileName = theFiles(k).name;
+        name = split(baseFileName,"_");
+        fprintf(1, 'Now preparing to write processed data for subject %s\n', name{1});        
+        final_table = zeros(length(timescale),3);
+        final_table(:,1) = timescale; % Timescale created by us
+        final_table(:,2) = valData(:,k); % Initial 5 time points are zero
+        final_table(:,3) = arlData(:,k); % Initial 5 time points are zero
+        %final_table(1,:) = zeros(1,width(final_table));
+        resultname = strcat(destFin, name{1},'_processed.csv');
+        writematrix(final_table,resultname,"WriteMode","overwrite");
+    end
+end
+
+
+function calcKinematics(myFolder,pattern, val_ind, arl_in,time_ind, strength_ind, disp_ind, vel_ind, acc_ind, jerk_ind, filter, fltVal)
+% The function takes in cleaned and pre-processed behaviour time series and
+% calculates the kinematics for that participant
+
+% myFolder specifies the path to be checked for sources files, pattern
+% tells the function the name pattern of the files to be looked for
+% val_ind, arl_in, time_ind specify the indices for valence, arousal and
+% the time in the source files. Displacement, velocity and acceleration
+% indices specify the indices where the corresponding kinematics values are
+% to filled in. 
+
+% Filter specifies whether the kinematics should be thresholded on the
+% basis of displacement distribution for the participant. fltVal specifies
+% the number of standard deviations the kinematics distribution should be
+% filtered within.
+
+    % Get a list of all files in the folder with the desired file name pattern.
+    filePattern = fullfile(myFolder, pattern); % Change to whatever pattern you need.
+    theFiles = dir(filePattern);
+    
+    % Loop through the file list
+    for k = 1 : length(theFiles)
+        baseFileName = theFiles(k).name;
+        fullFileName = fullfile(theFiles(k).folder, baseFileName);
+        fprintf(1, 'Now reading %s\n', fullFileName);
+    
+        % Read in the participant data
+        emo_data = readmatrix(fullFileName);
+        
+        % Initialize empty rows and fill them with zeros, to be filled later
+        emo_data(1,disp_ind) = zeros();% Displacement
+        emo_data(1,vel_ind) = zeros();% Velocity
+        emo_data(1,acc_ind) = zeros();% Acceleration
+        
+        fprintf(1, 'Calculating resultant displacement, velocity and accelaration \n')
+        
+        % Indexes from 2 because Intensity at t = 0/1 will be 0
+        for i = 1:length(emo_data)
+            % Calculate the intensity of emotion at each
+            % consecutive time frame.
+            % Intensity  = sqrt (valence(t)^2 + arousal(t)^2)
+            emo_data(i,strength_ind) = sqrt( (emo_data(i,val_ind) + emo_data(i,arl_in) )^2 );
+        end
+        
+        % Indexes from 2 because Displacement at t = 0/1 will be 0
+        for i = 2:length(emo_data)-1
+            % Calculate the displacement of the joystick at each
+            % consecutive time frame.
+            % Displacement = sqrt( (valence(t) - valence(t-1))^2 + (arousal(t) - arousal(t-1))^2)
+            emo_data(i, disp_ind) = sqrt( (emo_data(i+1, val_ind) - emo_data(i-1, val_ind) )^2 +  (emo_data(i+1, arl_in) - emo_data(i-1, arl_in) )^2 );
+        end
+
+        if filter == true
+            % Calculate the standard deviation of the displacement values
+            % for the participant. This will be used as a filter and only
+            % displacements "above" fltVal*SD will be allowed to be used
+            % for velocity calculation.
+            sdThresh = fltVal * std(emo_data(:,disp_ind));
+            % Indexes from 2 because velocity at t = 0/1 will be 0
+            for i = 3:length(emo_data)-1
+                if emo_data(i,disp_ind) <= sdThresh && emo_data(i,disp_ind) >= -sdThresh
+                    % Make any timepoint with displacement values less than
+                    % sdThresh zero
+                    emo_data(i,disp_ind) = 0;
+                    %emo_data(i,strength_ind) = 0;
+                else
+                    % Calculate the velocity of the joystick at each
+                    % consecutive time frame.
+                    % Velocity = displacement(t-1:t)/time(t-(t-1))
+                    emo_data(i, vel_ind) = emo_data(i, disp_ind) / 2*((emo_data(i, time_ind) - emo_data(i-1, time_ind)));
+                end
+            end
+        else
+            for i = 3:length(emo_data)-1
+            % If filter is not true velocity is calculated unthresholded
+            % Velocity = displacement(t-1:t)/time(t-(t-1))
+                emo_data(i, vel_ind) = emo_data(i, disp_ind) / 2*((emo_data(i, time_ind) - emo_data(i-1, time_ind)));
+            end
+        end
+        
+        % Indexes from 4 because Acceleration at initial two time points will be 0
+        for i = 4:length(emo_data)-1
+            % Calculate the acceleration 
+            % Acceleration = (velocity(t) - velocity(t-1))/time(t-(t-1))
+            emo_data(i,acc_ind) = (emo_data(i+1, vel_ind) - emo_data(i-1, vel_ind)) / 2*(emo_data(i, time_ind) - emo_data(i-1, time_ind));
+        end
+        
+
+        for i = 5:length(emo_data)-1
+            % Calculate the acceleration 
+            % Acceleration = (velocity(t) - velocity(t-1))/time(t-(t-1))
+            emo_data(i,jerk_ind) = (emo_data(i+1, acc_ind)-emo_data(i-1, acc_ind)) / 2*(emo_data(i,time_ind)-emo_data(i-1,time_ind));
+        end
+        % Write the values to the specified file
+        writematrix(emo_data, fullFileName,'WriteMode','overwrite');
+    
+    end
+end
+
+function [valence, arousal, strength, displacement, time, velocity, acceleration, jerk] = disFeat_Exact(myFolder,pattern,val_ind, arl_ind, strength_ind, disp_ind, time_ind, vel_ind,acc_ind, jerk_ind)  
+
+% This function has been create to extract state and kinematics information
+% from participant files with ease without having to call out each
+% individual participant repeatedly. 
+
+    % Get a list of all files in the folder with the desired file name pattern.
+    filePattern = fullfile(myFolder, pattern); % Change to whatever pattern you need.
+    % Contains the names/locations of files with specified name pattern
+    theFiles = dir(filePattern);
+    
+    % Initialise empty vectors of required length
+    valence = [1,length(theFiles)];
+    arousal = [1,length(theFiles)];
+    strength = [1,length(theFiles)];
+    displacement = [1,length(theFiles)];
+    velocity = [1,length(theFiles)];
+    time = [1,length(theFiles)];
+    acceleration = [1,length(theFiles)];
+    jerk = [1,length(theFiles)];
+
+    % Loop across files/participant numbers
+    for k = 1 : length(theFiles)
+        baseFileName = theFiles(k).name;
+        fullFileName = fullfile(theFiles(k).folder, baseFileName);
+        fprintf(1, 'Now reading %s\n', fullFileName);
+        
+        % Load participant data files
+        emo_fdata = readmatrix(fullFileName);
+        
+        % Look across each time points
+        for i = 1: length(emo_fdata)
+            % Indexing out each variable and filling empty arrays
+            valence(i,k) = emo_fdata(i,val_ind);
+            arousal(i,k) = emo_fdata(i,arl_ind);
+            strength(i,k) = emo_fdata(i,strength_ind);
+            displacement(i,k) = emo_fdata(i,disp_ind);
+            time(i,k) = emo_fdata(i,time_ind);
+            velocity(i,k) = emo_fdata(i,vel_ind);
+            acceleration(i,k) = emo_fdata(i,acc_ind);
+            jerk(i,k) = emo_fdata(i,jerk_ind);
+        end
+            
+    end
+    
+end
+
+
+function [actualBoundary, actualFrame] = timepointCalc(timepoints,timeGap, timeStop)
+    
+    % This is the timescale followed by the data   
+    timeFrame = 0:timeGap:timeStop;
+    
+    % Find the timepoints of shift
+    % ragaTime  = [45, 125, 157, 192, 258, 366, 442];
+        % This is to calculate the timepoints corresponding to the Raga shift
+        % time points
+
+    actualBoundary = zeros(length(timepoints)+2,1);
+    for i = 1:length(timepoints)
+        [minVal,minInd] = min(abs(timeFrame - timepoints(i)));
+        actualBoundary(i+1) = timeFrame(minInd);
+    end
+    actualBoundary(length(timepoints)+2) = timeFrame(length(timeFrame));
+    
+    % Find the frame points of shift
+        % This is to calculate the frames corresponding to the Raga shift
+        % time points
+    actualFrame= ones(length(timepoints)+2,1);
+    for i = 1:length(timepoints)
+        [minVal,minInd] = min(abs(timeFrame - timepoints(i)));
+        actualFrame(i+1) = minInd;
+    end
+    actualFrame(length(timepoints)+2) = length(timeFrame);
+
+end
+
+function accBinary = binarizeAcc(acceleration, fillWindow, addFrame)
+% Binarising acceleration time points on basis of zero vs some value
+    % fillWindow will fill any gaps in the acceleration time series that
+    % occur for less than 1TR with the previous marker
+
+    % addFrame is used to add a 1TR preceding window to all acceleration
+    % events. This was to account for any decision making that would go
+    % into the acceleration events
+
+    % Initialise the accBinary variable to store binarised acceleration data
+    accBinary = zeros(length(acceleration),width(acceleration));
+    % Loop across participants
+    for j = 1:width(acceleration)
+        % Loop across timepoints
+        for i = 1:length(acceleration)
+            % Convert all non-zero events into acceleration windows (1)
+            if acceleration(i,j) ~= 0
+                accBinary(i,j) = 1;
+            else
+            % Convert all zero events into non-acceleration windows (0)
+                accBinary(i,j) = 0;
+            end
+        end
+    end
+    
+    if fillWindow == true
+        % Single occurence windows are converted into preceding event
+        for j = 1:width(acceleration)
+            for i = 2:length(acceleration)-1
+                if accBinary(i-1,j)==accBinary(i+1,j)
+                    if accBinary(i-1,j)~=accBinary(i,j)
+                        if accBinary(i,j) == 0
+                            accBinary(i,j) = 1;
+                        else
+                            accBinary(i,j) = 0;
+                        end
+                    end
+                end
+            end
+        end
+    end
+    
+    if addFrame == true
+        % Considering that the decision for acceleration precedes actual
+        % acceleration, a preceding window is ideal to look into underlying
+        % computation.
+        
+        % Adding a 1 TR window before every acceleration time point
+        for j = 1:width(acceleration)
+            for i = 2:length(acceleration)
+                if accBinary(i-1,j)~=accBinary(i,j)
+                   if accBinary(i,j)==1
+                       accBinary(i-1,j)=1;
+                   end
+                end
+            end
+        end
+    end
+
+end
+
+function ind_lat = calcLatency(accBinary, actualFrame, timeBin, divide, duration, limit)
+
+    % Initialise empty array
+    ind_lat = zeros(8,width(accBinary));
+    
+    % List of raga indices
+    t_ind = actualFrame;
+    % t_ind = [1,39,105,132,161,216,306,369];
+
+    % Initialise loop across participants
+    for i = 1:width(accBinary)
+    
+        % Loop to index out raga indices and generate raga specific tiem frames
+        for k = 1:8
+        
+            % For the first index there isn't a need to account for runovers
+            if k==1
+                for j = t_ind(k):(t_ind(k+1)-1)
+                    % Check if the time point is a transition point or not
+                    if accBinary(j,i) == 1
+                        if divide == true
+                            ind_lat(k,i) = (((j-t_ind(k))+1)*timeBin)/duration(k);
+                            if limit == true
+                                if ind_lat(k,i) > 32 
+                                    ind_lat(k,i) = 0; 
+                                end
+                            end
+                        else
+                            ind_lat(k,i) = ((j-t_ind(k))+1)*timeBin;
+                            if limit == true
+                                if ind_lat(k,i) > 32 
+                                    ind_lat(k,i) = 0; 
+                                end
+                            end
+                        end
+                        break
+                    end
+                end
+            
+            % Loop from the second last raga index to the end
+            elseif k==8
+                    % Chcek if the 8th index timepoint and timepoint+1 is a transition point
+                    if accBinary(t_ind(k),i)==1 || accBinary(t_ind(k)+1,i)==1
+                    % Find the next closest which is a non-transition index
+                        % If Kth index is a transition point
+                        if accBinary(t_ind(k),i)==1
+                            for j = t_ind(k):length(accBinary)
+                                % The closest non-transition index becomes
+                                % the new starting point.
+                                if accBinary(j,i) == 0
+                                    newInd = j;
+                                    break
+                                end
+                            end
+                        % If (K+1)th index is a transition point
+                        elseif accBinary(t_ind(k)+1,i)==1
+                            for j = t_ind(k)+1:length(accBinary)
+                                % The closest non-transition index becomes
+                                % the new starting point.
+                                if accBinary(j,i) == 0
+                                    newInd = j;
+                                    break
+                                end
+                            end
+                        end
+                        
+                        % Search from this new index for the closest
+                        % transition point. 
+                        for j = newInd:length(accBinary)
+                            if accBinary(j,i)==1
+                                if divide == true
+                                    ind_lat(k,i) = (((j-t_ind(k))+1)*timeBin)/duration(k);
+                                    if limit == true
+                                        if ind_lat(k,i) > 32 
+                                            ind_lat(k,i) = 0; 
+                                        end
+                                    end
+
+                                else
+                                    ind_lat(k,i) = ((j-t_ind(k))+1)*timeBin;
+                                    if limit == true
+                                        if ind_lat(k,i) > 32 
+                                            ind_lat(k,i) = 0; 
+                                        end
+                                    end
+                                end
+                                break
+                            end
+                        end
+                    
+                    % If the Kth and (K+1)th index are not transition
+                    % points, directly move to calculating latency.
+                    else 
+                        for j = t_ind(k):length(accBinary)
+                            if accBinary(j,i) == 1
+                                if divide == true
+                                    ind_lat(k,i) = (((j-t_ind(k))+1)*timeBin)/duration(k);
+                                    if limit == true
+                                        if ind_lat(k,i) > 32 
+                                            ind_lat(k,i) = 0; 
+                                        end
+                                    end
+                                else
+                                    ind_lat(k,i) = ((j-t_ind(k))+1)*timeBin;
+                                    if limit == true
+                                        if ind_lat(k,i) > 32 
+                                            ind_lat(k,i) = 0; 
+                                        end
+                                    end
+                                end
+                                break
+                            end
+                        end
+                    end
+    
+            % For other indices
+            else
+                % Chcek if the 8th index timepoint and timepoint+1 is a transition point
+                if accBinary(t_ind(k),i)==1 || accBinary(t_ind(k)+1,i)==1
+                % Find the next closest which is a non-transition index
+                    % If Kth index is a transition point
+                    if accBinary(t_ind(k),i)==1
+                        for j = t_ind(k):t_ind(k+1)
+                            % The closest non-transition index becomes
+                            % the new starting point.
+                            if accBinary(j,i) == 0
+                                newInd = j;
+                                break
+                            end
+                        end
+                    % If (K+1)th index is a transition point    
+                    elseif accBinary(t_ind(k)+1,i)==1
+                        for j = t_ind(k)+1:t_ind(k+1)
+                            % The closest non-transition index becomes
+                            % the new starting point.
+                            if accBinary(j,i) == 0
+                                newInd = j;
+                                break
+                            end
+                        end
+                    end
+
+                    % Search from this new index for the closest
+                    % transition point. 
+                    for j = newInd:t_ind(k+1)
+                        if accBinary(j,i)==1
+                            if divide == true
+                                ind_lat(k,i) = (((j-t_ind(k))+1)*timeBin)/duration(k);
+                                if limit == true
+                                    if ind_lat(k,i) > 32 
+                                        ind_lat(k,i) = 0; 
+                                    end
+                                end
+                            else
+                                ind_lat(k,i) = ((j-t_ind(k))+1)*timeBin;
+                                if limit == true
+                                    if ind_lat(k,i) > 32 
+                                        ind_lat(k,i) = 0; 
+                                    end
+                                end
+                            end
+                            break
+                        end
+                    end
+
+                % If the Kth and (K+1)th index are not transition
+                % points, directly move to calculating latency.
+                else 
+                    for j = t_ind(k):t_ind(k+1)
+                        if accBinary(j,i) == 1
+                            if divide == true
+                                ind_lat(k,i) = (((j-t_ind(k))+1)*timeBin)/duration(k);
+                                if limit == true
+                                    if ind_lat(k,i) > 32 
+                                        ind_lat(k,i) = 0; 
+                                    end
+                                end
+
+                            else
+                                ind_lat(k,i) = ((j-t_ind(k))+1)*timeBin;
+                                if limit == true
+                                    if ind_lat(k,i) > 32 
+                                        ind_lat(k,i) = 0; 
+                                    end
+                                end
+                            end
+                            break
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+\end{lstlisting}
+
+
+\lstset{language=Python, style={mystyle}}%
+
+\subsubsection{Denoising pre-processed neural data}
 
 \begin{lstlisting}
-function print_rate(kappa,xMin,xMax,npoints,option)
-     local c = 1-kappa*kappa
-     local croot = (1-kappa*kappa)^(1/2)
-     local logx = math.log(xMin)
-     local psi = 0
-     
-     local xstep = (math.log(xMax)-math.log(xMin))/(npoints-1)
-     
-     arg0 = math.sqrt(xMin/c)
-     psi0 = (1/c)*math.exp((kappa*arg0)^2)*(erfc(kappa*arg0)-erfc(arg0))
-     
-     if option~=[[]] then
-  		 tex.sprint("\\addplot+["..option.."] coordinates{") 
-  		 -- addplot+ for color cycle to work
-     else
-  		 tex.sprint("\\addplot+ coordinates{")
-     end
-     tex.sprint("("..xMin..","..psi0..")")
-     
-     for i=1, (npoints-1) do
-  		 x = math.exp(logx + xstep)
-  		 arg = math.sqrt(x/c)
-  		 karg = kappa*arg
-  		 if karg<5 then 
-		 -- this break compensates for exp(karg^2), which multiplies the error in the erf approximation...
-  		    logpsi = -math.log(croot) + karg^2 + math.log(erfc(karg)-erfc(arg))
-  		    psi = math.exp(logpsi)
-  		 else
-  		    psi = (1/(karg) - 1/(2*(karg^3)) + 3/(4*(arg^5)) )/(1.77245385*croot)
-  		    -- this is the large x asymptote of the reaction rate
-  		 end
-  		 logx = math.log(x)
-  		 tex.sprint("("..x..","..psi..")")
-     end
-     tex.sprint("}")
-end
-\end{luacode*}
+    #%% Import required packages
+
+from os.path import  join, basename
+import glob
+import pandas as pd
+#import numpy as np
+import nilearn.image as image
+import nibabel as nib
+from nilearn.interfaces.fmriprep import load_confounds
+
+#%% Slicing BOLD files
+
+''' 
+    Removal of the first 13 and last 2 volumes from the raw BOLD data (443 volumes) 
+    to make it a 428 volume time series.
+'''
+
+# Location of EPI files:
+data_dir = '/media/austin/Emotion/InterAffectTravel/neuralData/workingBOLD/epi_raw/'
+
+# glob over all possible files with given name pattern in the provided directory:
+file_list = sorted(glob.glob(join(data_dir, '*_task-music_space-MNI152NLin2009cAsym_res-2_desc-preproc_bold.nii.gz')))
+
+# Loop through all files in the file list acquired by globbing over given directory:
+for f in file_list:
+    # Extract subject name:
+    sub = basename(f).split('_')[0]
+    print(sub)
+    # Load the original EPI file
+    f_img = image.load_img(f)
+    # Index out required volumes and create a new volume
+    final_img = image.index_img(f_img,slice(12,440))
+    # Save new EPI file
+    final_img.to_filename(f)
+
+#%% Slicing the confound files
+
+''' 
+    Removal of the first 13 and last 2 volumes from the raw confounds data (443 volumes) 
+    to make it a 428 volume time series.
+'''
+
+# Location of confound files:
+data_dir = '/media/austin/Emotion/InterAffectTravel/neuralData/workingBOLD/epi_raw/'
+
+# glob over all possible files with given name pattern in the provided directory:
+file_list = sorted(glob.glob(join(data_dir,'*_task-music_desc-confounds_timeseries.tsv')))
+
+# Loop through all files in the file list acquired by globbing over given directory:
+for f in file_list:   
+    # Extract subject name:
+    sub = basename(f).split('_')[0]
+    print(sub)
+    # Load the original confound file
+    bold_data = pd.read_csv(f, sep='\t', header = 0)
+    # Index out required enteries and create a new matrix
+    func_data = bold_data[12:440]
+    # Save new confound file
+    func_data.to_csv(f'/media/austin/Emotion/InterAffectTravel/neuralData/workingBOLD/epi_raw/{sub}_task-music_desc-confounds_timeseries.tsv', index=False, sep='\t')
+    
+#%% Extracting framewise displacement values and creating a matrix
+
+# Location of confound files:
+data_dir = '/media/austin/Emotion/InterAffectTravel/neuralData/workingBOLD/epi_raw/'
+
+# glob over all possible files with given name pattern in the provided directory:
+file_list = sorted(glob.glob(join(data_dir,'*_task-music_desc-confounds_timeseries.tsv')))
+
+# Loop through all files in the file list acquired by globbing over given directory:
+fd = []
+for f in file_list:
+    # Extract subject name:
+    sub = basename(f).split('_')[0]
+    print(sub)
+    # Load the original confound file
+    bold_data = pd.read_csv(f, sep='\t', header = 0)
+    # EXtract out the FD columns
+    func_data = bold_data.loc[:,'framewise_displacement']
+    # Index out required enteries and create a new matrix
+    fd.append(func_data)
+# Transpose the created matrix into (timepoints,subject):
+fd = pd.DataFrame(fd).T
+# Rename each column for participant:
+fd = fd.set_axis([f'FD_sub-{x:02}' for x in range(1,len(file_list)+1)], axis=1)
+# Save the FD data matrix
+fd.to_csv('/media/austin/Emotion/InterAffectTravel/neuralData/workingBOLD/fd_allpart.csv', index=False)
+
+#%% Denoising the data, removing the effects of motion variables, CSF, and detrending the data
+
+''' 
+    This script is for loading in the confound files generated by fmriprep during preprocessing and regressing them out
+    to denoise the BOLD data. It regresses out CSF effects, WM activity, motion artifacts captured by Framewise displacement and drift regressors from cosine. 
+    
+'''
+
+# Smoothing kernel
+fwhm = 6 
+
+# Location of framewise displacement data matrix, to be used in confound removal
+fd_val = pd.read_csv('/media/austin/Emotion/InterAffectTravel/neuralData/workingBOLD/fd_allpart.csv')
+
+# Directory with preprocessed EPI files
+base_dir = '/media/austin/Emotion/InterAffectTravel/neuralData/workingBOLD/' 
+
+# globing over all in specified format in the base_dir
+file_list = sorted([x for x in glob.glob(join(base_dir, '*epi_raw/*_task-music_space-MNI152NLin2009cAsym_res-2_desc-preproc_bold.nii.gz')) if 'denoise' not in x])
+
+# Looping over each file found by glob
+for i, f in enumerate(file_list):    
+    
+    # Extract subject name
+    sub = basename(f).split('_')[0]
+    print('The following subject data is being denoised:',sub)
+    
+    # Load EPI file
+    readBrain = nib.load(f)
+    
+    # Smoothen the image according to specified smoothing kernel
+    brain_data = image.smooth_img(readBrain, fwhm = fwhm)
+        
+    # Load in required confounds, generate a design matrix to regress them out
+    confounds_simple, sample_mask = load_confounds(
+        f,
+        strategy=["motion", "wm_csf", "high_pass"],
+        motion="derivatives",
+        wm_csf="derivatives",
+        demean = True # Centering the confounds for each participant, Made false
+    )
+    
+    # Include the framewise displacement data in the confound matrix
+    confound_final = pd.concat([confounds_simple,fd_val.iloc[:,i]], axis = 1)
+    print("The shape of the confound matrix is:", confound_final.shape)
+    print(confound_final.columns)
+        
+    # final_img = clean_img(brain_data, detrend=True, confound = confounds_simple, t_r = 1.2, mask_img = brain_mask)
+    # Don't load masks ahead of time, nilern GLM instance errors out as it can't figure out where to derive information from
+    # Detrending removes the influence of proximate voxels on each other
+    # Regress out each variable in the confounds matrix obtaining the final denoised BOLD data:
+    final_img = image.clean_img(brain_data, detrend = True, confound = confound_final, t_r = 1.2) 
+    
+    # Save the final processed BOLD file:
+    print("Saving denoised data for subject:", sub)
+    nib.save(final_img, join(base_dir, 'epi_CosineRemoved', f'{sub}_nilearn_denoise_smooth{fwhm}mm_task-music_space-MNI152NLin2009cAsym_res-2_desc-preproc_bold.nii.gz'))
 \end{lstlisting}
+
+
+\subsubsection{GLM analysis of the neural data}
+
+\begin{lstlisting}
+#%% # Creating the acceleration design matrix revamped
+
+def create_event_file(timeseries, tr=1.0):
+    """
+    Create event file for Nilearn from a binary timeseries.
+    
+    Parameters:
+    - timeseries: 1D array-like of 0s and 1s
+    - tr: Repetition time (in seconds)
+
+    Returns:
+    - events: DataFrame with onset, duration, trial_type
+    """
+    timeseries = np.asarray(timeseries)
+    assert set(np.unique(timeseries)).issubset({0, 1}), "Timeseries must only contain 0 and 1"
+
+    events = []
+    current_val = timeseries[0]
+    onset = 0
+
+    for i in range(1, len(timeseries)):
+        if timeseries[i] != current_val:
+            duration = round((i - onset) * tr,1) - tr
+            trial_type = ["NA" if current_val==0 else "A"][0]
+            if duration > 0:
+                events.append({
+                    "onset": round(onset * tr, 1),
+                    "duration": duration,
+                    "trial_type": trial_type,
+                    "modulation" : 1
+                })
+            onset = i
+            current_val = timeseries[i]
+
+    # Add final event
+    duration = round((len(timeseries) - onset) * tr, 1) - tr
+    trial_type = ["NA" if current_val==0 else "A"][0]
+    if duration > 0:
+        events.append({
+            "onset": round(onset * tr,1),
+            "duration": duration,
+            "trial_type": trial_type,
+            "modulation" : 1
+        })
+
+    return pd.DataFrame(events)
+
+avna = pd.read_csv('/media/austin/Emotion/InterAffectTravel/behaviouralData/Data_TRtime/accBinarised_TRt.csv',header=None).T
+
+conditionS = {}
+dm_dict = {}
+
+for sub_ind in range(avna.shape[1]):
+    
+    conditionS[sub_ind] = create_event_file(avna.iloc[:,sub_ind], tr=1.2)
+    
+    # Time frame of the whole experiment in seconds, obtained as number of EPI volumes x TR time
+    frame_times = np.array([round(x*1.2,2) for x in range(428)])
+    # Create the first level design matrix. 
+    ''' Glover HRF model is used for our purposes. This can be changed for better fit ''' 
+    dm = make_first_level_design_matrix(frame_times, events = conditionS[sub_ind], hrf_model="glover", drift_model=None)
+    print(sub_ind)
+    # Load generated design matrix to the dictionary with the participant ID as a dictionary key
+    dm_dict[sub_ind] = dm
+
+# Save design matrix for figure
+plot_design_matrix(dm_dict[3])
+plt.savefig("/home/austin/Documents/AustinV_Thesis/figures/finalFigure/GLM_TransitionCoding_DesignMatrix_Sub3.png", transparent=True)
+
+
+#%% # First Level Analysis GLM run per participant at voxel
+
+# Specify the size of the smoothign kernel used for denoising. 
+# THIS IS ONLY USED TO CORRECTLY READ IN FILES
+fwhm=6
+  
+# Specify the directory to glob for denoised EPI files
+base_dir = '/media/austin/Emotion/InterAffectTravel/neuralData/workingBOLD/epi_CosineRemoved/'
+
+# glob over provided directory checking for specified condition
+file_list = sorted([x for x in glob.glob(os.path.join(base_dir,f'*nilearn_denoise_smooth{fwhm}mm_task-music_space-MNI152NLin2009cAsym_res-2_desc-preproc_bold.nii.gz'))])
+
+# Initiliaze a dictionary to store 1st lvl GLM results
+sub_dict = {}
+
+# Loop over file list generated by glob 
+for i,f in enumerate(file_list):    
+    
+    # Extract subject ID
+    sub = os.path.basename(f).split('_')[0]
+    print('The following subject data is being processed:',sub)
+    
+    # Load in the EPI file
+    neuroData = nib.load(f)
+    
+    # Call subect specific design matrix, from the dictionary of design matrices created above
+    dm = dm_dict[i]
+    
+    ''' For use only if a whole brain mask template isn't available, otherwise stick to using established templates. Check templateflow if you can't find something specific'''
+    # compute a whole brain mask, voxels within this mask will be denoised and extracted.
+    #brain_mask = compute_brain_mask(neuroData, mask_type='whole-brain', threshold = 0.08)
+    
+    ''' Same as above '''
+    # Using an MNI152 brain mask to potentially remove the error caused due to different sizes of nifti files and mask
+    #brain_mask = mni_mask(resolution=2) #still throwing error
+    
+    # Load in brain mask template
+    brain_mask = nib.load('/media/austin/Emotion/InterAffectTravel/atlases/tpl-MNI152NLin2009cAsym_res-02_desc-brain_mask.nii.gz')
+    
+    # Initiliaze a first level model
+    glm_model = FirstLevelModel(t_r = 1.2, hrf_model='glover', mask_img=brain_mask, n_jobs=-1, signal_scaling=False)
+    # Fit brain data to loaded design matrix
+    glm_model = glm_model.fit(neuroData, design_matrices = dm)
+    
+    print("Creating a constrast matrix")
+    # Intialize an empty contrast array
+    contrast_matrix = np.eye(dm.shape[1])
+    
+    # Draw contrast values from the design matrix. 
+    # Column names and values are drawn and autofilled.
+    basic_constrats = {
+        column: contrast_matrix[i]
+        for i, column in enumerate(dm.columns)
+        }
+    
+    # Setup contrast conditions
+    contrasts = {
+        "A-NA": basic_constrats["A"] - basic_constrats["NA"],
+        "NA-A": basic_constrats["NA"] - basic_constrats["A"],
+        "Both": np.vstack((basic_constrats["A"], basic_constrats["NA"]))
+        }
+
+    print(f"Computing constrasts for subject: {sub}")
+    
+    # Compute the contrasts
+    for contrast_id, contrast_val in contrasts.items():
+        print(f"\tcontrast id: {contrast_id}") 
+        #z_map = glm_model.compute_contrast(contrast_val, output_type="z_score") # Use to produce and save only zscored effect size
+        sub_map = glm_model.compute_contrast(contrast_val, output_type='all')
+        sub_dict[sub+':'+contrast_id] = sub_map # Save to GLM result dictionary
+
+
+#%% # Save the unthresholded data for all participants
+
+''' Unthresholded zmaps will be required for group level GLM '''
+
+# Call subject keys within the dictionary and save the zscored beta maps without thresholding
+for key,data in sub_dict.items():    
+    nib.save(sub_dict[key]['z_score'], f'/media/austin/Emotion/InterAffectTravel/neuralData/analysis/GLM/fstlvl/{key}_unfiltered_zmap.nii.gz') # change z_score to other data types to save them
+    
+
+#%% # pThresholding for all participant data
+
+''' To save thresholded zscored effect sizes calculated by the first level GLM '''
+# Loop across participants
+for j in range(file_list.shape[0]):
+    
+    # Call subject keys within the dictionary and save the zscored beta maps without thresholding
+    for key,data in sub_dict.items():
+        
+        # Check for participant number and call keys specific to the participant
+        if f"{j}".zfill(2) in key:
+            
+            # Extract the zscored effect size map
+            z_map = sub_dict[key]['z_score']
+
+            # beta_map = sub_dict[key]['effect_size'] # Uncomment if you require non-zscored effect size values
+            
+            # Threshold the stat map(zscored effect size map) with 5% FDR and 10 voxel cluster threshold
+            pThresh = nilearn.glm.threshold_stats_img(z_map, height_control = 'fdr', alpha = 0.05, cluster_threshold=10)[0]
+            
+            # Zero out voxels that are insignificant after FDR correction 
+            FinImg = math_img("img1*img2", img1 = z_map, img2 = binarize_img(pThresh), copy_header_from = 'img1')
+            
+            #plot_stat_map(FinImg, cut_coords=[1,-40,33])
+            
+            # Save thresholded stat maps
+            nib.save(FinImg, f'/media/austin/Emotion/InterAffectTravel/neuralData/analysis/GLM/zmap_AVNA_pThresh/{key}_pThresh_zmap.nii.gz')
+
+
+#%% # Second level analysis, confirmation of group level behaviour in the participant pool
+
+''' USE UNTHRESHOLED STAT MAPS FOR THIS. DO NOT USE FDR CORRECTED ONES AS THEY WILL ERROR OUT'''
+
+''' 
+    The second level GLM uses a design matrix with the subjects as the variable under consideration, making it a group level comparison.
+    This allows for any group level effects to be extracted and observed.
+'''
+
+# glob to get location information for all unthresholded stat maps saved previously
+file_list = sorted([x for x in glob.glob(os.path.join('/media/austin/Emotion/InterAffectTravel/neuralData/analysis/GLM/fstlvl/sub*A-NA*'))])
+
+# Intialize empty array 
+second_level_input = []
+
+# Loop over participant files
+for i,f in enumerate(file_list):    
+    # Extract subject number
+    sub = os.path.basename(f).split(':')[0]
+    print('The following subject data is being processed:',sub)
+    # Load subject specific uthresholded zmap
+    contData = nib.load(f) 
+    # Append to create a cluster of subject specific uthresholded zmap
+    second_level_input.append(contData)
+
+# Create second level design matrix 
+design_matrix = pd.DataFrame( [1] * len(file_list), columns=["intercept"] )
+
+# Initialize second level GLM 
+glm2model = second_level.SecondLevelModel()
+# Fit data to second level GLM 
+glm2model = glm2model.fit(second_level_input, design_matrix = design_matrix)
+# Compute group level effects
+z_map = glm2model.compute_contrast(output_type='all')
+
+# Threshold using a 1% FDR and 10 voxel cluster threshold. 
+''' This mask produces the output for a one tailed hypothesis test. It can also produce two tailed results where any difference is shown by setting two_sided to false '''
+pMask = nilearn.glm.threshold_stats_img(z_map['z_score'], height_control = 'fdr', alpha = 0.05, cluster_threshold=10, two_sided=False)[0]
+# FinImg = math_img("img1*img2", img1 = z_map['z_score'], img2=binarize_img(pMask), copy_header_from='img1')
+#pMask2 = nilearn.glm.threshold_stats_img(pMask, threshold=0, height_control = None)[0]
+#plot_stat_map(z_map['z_score'], cut_coords=[1,-40,33])
+
+plot_stat_map(pMask, cut_coords=[1,-40,33], title='Regions active in emotional tranistions')
+plt.savefig("/home/austin/Documents/AustinV_Thesis/figures/finalFigure/GLM_TransitionCoding_A-NA.png", transparent=True)
+
+nib.save(pMask, '/media/austin/Emotion/InterAffectTravel/neuralData/analysis/GLM/glm2ndLVL_A-NA_pThresh5%_zmap.nii.gz')
+
+\end{lstlisting}
+

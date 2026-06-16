@@ -22,8 +22,8 @@
 
 %%%%%%%%%  Documentclass and options  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[twoside, lineno, fontset=fira-newtxsf]{mitthesis}% fontset=libertinus, fontset=lmodern, fontset=lucida, 
-%						fontset=newtx, fontset=newtx-sans-text,  
+\documentclass[fontset=libertinus]{mitthesis}% fontset=libertinus, fontset=lmodern, fontset=lucida, 
+%						fontset=fira-newtxsf, fontset=newtx, fontset=newtx-sans-text,  
 %						fontset=heros-stix2,  fontset=stix2, fontset=termes-stix2, fontset=termes
 %
 % option [twoside]		gives facing-page behavior for printing; omitting twoside will eliminate even-numbered blank pages.
@@ -49,46 +49,36 @@
 %% Package for code listing in Appendix A.
 \usepackage{listings}%   documentation is here https://ctan.org/pkg/listings
 
-%% Set chemical formulas nicely
-\usepackage[version=4]{mhchem}%   documentation at https://ctan.org/pkg/mhchem
-
-%% Latin filler used in Chapter 1, with a test for package version date (https://ctan.org/pkg/lipsum)
-\usepackage{lipsum}
-\IfPackageAtLeastTF{lipsum}{2021/09/20}{\setlipsum{auto-lang=false}}{}
-
 
 %%%%%%%%%  Other optional packages used sample chapters  %%%%%%%%%%%%%%%%%%
 
 %% Table related packages  
-
 \usepackage{booktabs}% publication quality tables (https://ctan.org/pkg/booktabs)
-
 \usepackage{array}% Additional options for column formats (https://ctan.org/pkg/array)
-
 \usepackage{dcolumn}% For alignment of numbers on the decimal place (https://ctan.org/pkg/dcolumn) 
   \newcolumntype{d}[1]{D{.}{.}{#1}}% use with dcolumn package. Note: dcolumns are set in math mode.
   % syntax: d{x.y} where x is max number of digits before decimal and y is max number after.
 
 % Package for multipage table in Appendix B.
 \usepackage{longtable}% typeset multi-page tables (https://ctan.org/pkg/longtable)
-
 %\usepackage{tabularx}% adjustable-width columns in tabular (https://ctan.org/pkg/tabularx)
-
 
 %% Package for improved typography
 \usepackage{microtype}% typographic fine-tuning (https://ctan.org/pkg/microtype)
 
-
 %% Load this if using the two-column nomenclature format, \begin{nomenclature*}
 \usepackage{multicol}
 
+\usepackage{float}
+
+\usepackage{pdfpages}
 
 %%%%%%%%%  Graphics path (to figure files)  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% Can set graphicspath to point to specific directories containing figures (the current directory is searched automatically)
 %% For instance, to search a subdirectory of the current directory called "figures" and a parallel directory called "art", set:
 
-% \graphicspath{ {figures/} {../art/} }% For details see: https://latexref.xyz/dev/latex2e.html#g_t_005cgraphicspath
+% \graphicspath{ {figures/} }% For details see: https://latexref.xyz/dev/latex2e.html#g_t_005cgraphicspath
 
 
 %%%%%%%%%  Representative set-up for biblatex  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -98,32 +88,7 @@
 %%   cheat sheet is here:   https://tug.ctan.org/info/biblatex-cheatsheet/biblatex-cheatsheet.pdf
 
 %% Numerical citations of references
-\usepackage[style=ext-numeric-comp,giveninits=true,maxbibnames=10,sorting=none,language=american]{biblatex}
-
-% and make some changes to that style
-	\renewcommand{\multicitedelim}{\addcomma}% removes space between consecutive cites to give [6,7], not [6, 7]
-    \AtEveryBibitem{%
-      \ifentrytype{article}{%
-        \renewbibmacro{in:}{}% Removes "In:" for articles
-		\renewcommand*{\jourvoldelim}{\addcomma\space}   % put comma after journal title
-		\renewcommand*{\volnumdatedelim}{\addcomma\space}% put comma after volume info
-		\renewbibmacro*{issue+date}{% Print date without parentheses around it
-		\iffieldundef{issue}%
-        	{}%
-        	{\printfield{issue}%
-         	\setunit*{\addcomma\space}
-        	}%
-			\printdate
-		}
-      }{}
-    }
-	\renewbibmacro*{volume+number+eid}{%
-        \printtext[bold]{\printfield{volume}}%    bold volume (issue number) , eid
-        \printtext[parens]{\printfield{number}}%  
-        \setunit{\bibeidpunct}%
-        \printfield{eid}
-    }
-
+\usepackage[style = apa, citestyle=authoryear, maxnames = 2, bibstyle=numeric, sorting=nyt]{biblatex}
 
 
 %% IEEE style citations and references
@@ -136,11 +101,11 @@
 % \usepackage[style=authoryear, maxbibnames=10]{biblatex} 
 
 
-\addbibresource{references.bib}%% <== change to YOUR bib file <= CHANGE
+\addbibresource{thesis-references.bib}%% <== change to YOUR bib file <= CHANGE
 
 
 %% to avoid split urls and stretched white space, you can make the bibliography ragged-right by uncommenting this:
-%\AddToHook{cmd/bibsetup/after}{\raggedright}
+\AddToHook{cmd/bibsetup/after}{\raggedright}
 
 %% To ensure citations are set, run Latex --> biblatex --> Latex again (unless you installation does this automatically)
 
@@ -155,12 +120,12 @@
 
 %% The setspace package provides a tool for changing line separation. Use these two commands here:
 %
-% \usepackage{setspace}%  documentation at https://ctan.org/pkg/setspace
-% \setstretch{1.1}% you can choose some other value for the stretch of space between lines
-%
+\usepackage{setspace}%  documentation at https://ctan.org/pkg/setspace
+\setstretch{1.1}% you can choose some other value for the stretch of space between lines
+
 %% Use one or more of the these commands *AFTER* the frontmatter
 %
-% \onehalfspacing
+\onehalfspacing
 % \doublespacing
 % \singlespacing  % will turn these effects off (you can use these anywhere in the document)
 
@@ -173,7 +138,7 @@
 % The following items should be adjusted to match your work. <================= !!!!!!!!!!
 
 \hypersetup{%
-	pdfsubject={The use of behavioural kinematics to decode affective dynamics in naturalistic paradigms},
+	pdfsubject={Master's thesis of Austin Varughese},
 	% Change this to briefly state topic of your thesis 
 % 
 	pdfkeywords={National Brain Research Centre, NBRC},
@@ -181,9 +146,16 @@
 	% Includes the name[s] of the author[s] 
 	% (If you used \DocumentMetadata at line 14, you can just put "\CopyrightAuthor," for the names.)
 %
+	pdfurl={},
+	% If you have a url for the thesis, put it here. Otherwise delete this.
+	% (MIT Libraries will put your thesis in DSPACE with a persistent url after you submit it.)
+%	
 	pdfcontactemail={austinvarughese@gmail.com},
 	% You can put a [permanent] email address into the metadata, if you like.
 	% Otherwise delete this.
+%
+	pdfauthortitle={},
+	% If you have a title (e.g., Prof. Dr.-Ing.), you can include it here.
 }
 
 %%%%%%%%%%%%  Math operators %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -211,25 +183,32 @@
 
 % note on names: most of the following names are made up; Silas Holman was a physics professor at MIT in the 19th century.
 
-\Author{Austin Varughese}{Cognitive Brain Dynamics Laboratory}
+\Author{Austin Varughese}{Computational Brain Dynamics Laboratory}
 % \Author{Luisa Hernández}{Department of Research}[B.S. Mechanical Engineering, UCLA, 2018][M.S. Stellar Interiors, Vulcan Science Academy, 2020]
 % \Author{Thurston Howell III}{Department of Economics}[MBA, Ferengi School of Management, 2022]
 
 % Use once for each degree fulfilled by thesis
 % For two degrees from one department, leave the department argument blank for the second degree {}.
-\Degree{Master's of Neuroscience}{Cognitive Brain Dynamics Laboratory}
+\Degree{Master's of Science in Neurosciences}{Cognitive Brain Dynamics Laboratory}
 %\Degree{Master of Science in Physics}{}
 %\Degree{Bachelor of Science in Mechanical Engineering}{Department of Mechanical Engineering}
 
 % If there is more than one supervisor, use the \Supervisor command for each.
-\Supervisor{Arpan Banerjee}{Professor Scientist VII}
+\Supervisor{Prof. Dr. Arpan Banerjee}{Scientist VII}
 % \Supervisor{Edward C. Pickering}{Professor of Physics, and \\ \> Professor of Something Else}
 % \Supervisor{Secunda Castor}{Professor of Research}
 % \Supervisor{Quintus Castor}{Professor of Log Dams}
 
+% Professor who formally accepts theses for your department (e.g., the Graduate Officer, Professor Sméagol,...)
+% If more than one department, use more than once
+% \Acceptor{Tertius Castor}{Professor of Log Dams}{Graduate Officer, Department of Research} % \\ \> Third title}
+% \Acceptor{Quarta Castor}{Professor of Lodge Building}{Graduate Officer, Department of Mechanical Engineering}
+%%%  If you need to reduce vertical space, put the acceptor title in the second argument and leave the third blank, {}.
+% \Acceptor{Primus Castor}{Professor and Undergraduate Officer, Department of Physics}{}
+
 % Usage: \DegreeDate{Month}{year}
 % Valid degree months are February, May, June, or September
-\DegreeDate{August}{2025}
+\DegreeDate{June}{2025}
 
 % Date that final thesis is submitted to department
 \ThesisDate{June 15, 2025}
@@ -276,9 +255,10 @@
 
 
 %%% Make titlepage
-\maketitle
+\maketitle*
 
 
+\newgeometry{top=1in, bottom=1in, inner=1in, outer=1in, bindingoffset = 0.5in, headsep=12pt, footskip=0.5in, heightrounded}
 %%%%%%%%% Content that you need to write follows! %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % \includeonly{acknowledgments,biography,chapter1,chapter2,...,appendixa,...} 
@@ -287,49 +267,53 @@
 
 %%% Frontmatter (write this material in the mentioned files)  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\include{committee_members}% This page is optional. Edit the file committee_members.tex 
+%\include{committee_members}% This page is optional. Edit the file committee_members.tex 
 
 % The abstract environment creates all the required headings and footers. 
 % You only need to the text of the abstract in the file abstract.tex
+
+\includepdf[pages=-]{AustinV_Certificate.pdf}
+
+\includepdf[pages=-]{PlagriasmCertificate.pdf}
+
+\include{certificate_author}
+
 \begin{abstract}
 	\input{abstract.tex}% use \input rather than \include because we're inside an environment
 \end{abstract}
 
 \include{acknowledgments}% acknowledgments.tex (.tex extension is presumed by \include) 
 
-\include{biography}% biography.tex (optional, see https://libraries.mit.edu/distinctive-collections/thesis-specs/#format)
+% \include{biography}% biography.tex (optional, see https://libraries.mit.edu/distinctive-collections/thesis-specs/#format)
 
 %%% Table of contents and lists of stuff (delete unused lists, i.e., if no tables or figures) %%%%%
 
 \tableofcontents
 \listoffigures
-\listoftables
+% \listoftables
 
 %%% Chapters of thesis  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% If you want to use "double spacing", you should start here...
 
- \include{Introduction}% .tex extension is presumed
- \include{Materials and Methods}
-%  \include{Results}
-%  \include{Discussion}
-%  \include{introduction}
-
+	\include{Introduction}% .tex extension is presumed
+	\include{Materials and Methods}
+	\include{Results}
+	\include{Discussion}
 
 
 %%% Appendicies of thesis  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \appendix
 \include{appendixa}% listings example
-\include{appendixb}% longtable example
+% \include{appendixb}% longtable example
 
 
 %%% Bibliography (biblatex)  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\defbibheading{bibintoc}{\chapter*{#1}\addcontentsline{toc}{backmatter}{\refname}} 
+\defbibheading{bibintoc}{\chapter*{#1}\addcontentsline{toc}{chapter}{\refname}} 
 % this sets the title of contents name for bibliography to \refname (= References)
 % change "backmatter" to "chapter" if you prefer a bold face entry in the table of contents
-
 \printbibliography[title={\refname},heading=bibintoc]
 
 % biblatex also supports chapter-by-chapter bibliography, https://tex.stackexchange.com/a/296502/119566

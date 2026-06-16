@@ -1,0 +1,2820 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Anderson2014}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0a973851a43085e15cf35614e386cd69}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={David\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dfe8dca39ab144a9b903b597b9851da8}{%
+           family={Adolphs},
+           familyi={A\bibinitperiod},
+           given={Ralph},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{f0b5103197342a71e19993a3c505e8f9}
+      \strng{fullhash}{f0b5103197342a71e19993a3c505e8f9}
+      \strng{bibnamehash}{f0b5103197342a71e19993a3c505e8f9}
+      \strng{authorbibnamehash}{f0b5103197342a71e19993a3c505e8f9}
+      \strng{authornamehash}{f0b5103197342a71e19993a3c505e8f9}
+      \strng{authorfullhash}{f0b5103197342a71e19993a3c505e8f9}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0092-8674}
+      \field{journaltitle}{Cell}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{A Framework for Studying Emotions across Species}
+      \field{volume}{157}
+      \field{year}{2014}
+      \field{pages}{187\bibrangedash 200}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.cell.2014.03.003
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.cell.2014.03.003
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.cell.2014.03.003
+      \endverb
+    \endentry
+    \entry{Aronen2011}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b248800faadfc2be8e26d801ec89721e}{%
+           family={Aronen},
+           familyi={A\bibinitperiod},
+           given={Eeva\bibnamedelima T.},
+           giveni={E\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aacfe4f2378a78cde5ef66460ee6eaf4}{%
+           family={Simola},
+           familyi={S\bibinitperiod},
+           given={Petteri},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e49828929a1f3ea318f33a69b1b6e874}{%
+           family={Soininen},
+           familyi={S\bibinitperiod},
+           given={Mika},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{041f92741bcabe79fbb14064c2cee8c3}
+      \strng{fullhash}{26a9555602429c4f2bf07cf1e12b0425}
+      \strng{bibnamehash}{041f92741bcabe79fbb14064c2cee8c3}
+      \strng{authorbibnamehash}{041f92741bcabe79fbb14064c2cee8c3}
+      \strng{authornamehash}{041f92741bcabe79fbb14064c2cee8c3}
+      \strng{authorfullhash}{26a9555602429c4f2bf07cf1e12b0425}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0165-0327}
+      \field{journaltitle}{Journal of Affective Disorders}
+      \field{month}{9}
+      \field{number}{1–2}
+      \field{title}{Motor activity in depressed children}
+      \field{volume}{133}
+      \field{year}{2011}
+      \field{pages}{188\bibrangedash 196}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.jad.2011.04.013
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.jad.2011.04.013
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.jad.2011.04.013
+      \endverb
+    \endentry
+    \entry{avants_symmetric_2008}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=3dbb66ddcfbcba96055ef6ffe04671c2}{%
+           family={Avants},
+           familyi={A\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7703ed6c8d23c3b332d98fb75c400af8}{%
+           family={Epstein},
+           familyi={E\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=756e18e0e861fc84a3e5501cf87d9426}{%
+           family={Grossman},
+           familyi={G\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a92aaf2df68faaec9478d8f36b7066ed}{%
+           family={Gee},
+           familyi={G\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0f3405aaa2157df41de9c0194406c5ce}
+      \strng{fullhash}{809db078d40117f66039c8c397d59e45}
+      \strng{bibnamehash}{0f3405aaa2157df41de9c0194406c5ce}
+      \strng{authorbibnamehash}{0f3405aaa2157df41de9c0194406c5ce}
+      \strng{authornamehash}{0f3405aaa2157df41de9c0194406c5ce}
+      \strng{authorfullhash}{809db078d40117f66039c8c397d59e45}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{13618415}
+      \field{journaltitle}{Medical Image Analysis}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{1}
+      \field{shortjournal}{Medical Image Analysis}
+      \field{shorttitle}{Symmetric diffeomorphic image registration with cross-correlation}
+      \field{title}{Symmetric diffeomorphic image registration with cross-correlation: Evaluating automated labeling of elderly and neurodegenerative brain}
+      \field{volume}{12}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{pages}{26\bibrangedash 41}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.media.2007.06.004
+      \endverb
+      \verb{file}
+      \verb Accepted Version:/home/austin/snap/zotero-snap/common/Zotero/storage/9ZSNL9E4/Avants et al. - 2008 - Symmetric diffeomorphic image registration with cross-correlation Evaluating automated labeling of.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1361841507000606
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1361841507000606
+      \endverb
+    \endentry
+    \entry{behzadi_component_2007}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=0cabf5b9c4350a18f4e8756663151bd1}{%
+           family={Behzadi},
+           familyi={B\bibinitperiod},
+           given={Yashar},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=303e6b4920be4950a11107f073039f3c}{%
+           family={Restom},
+           familyi={R\bibinitperiod},
+           given={Khaled},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb48b8dc0aa41e9a6e42ae18d5bab222}{%
+           family={Liau},
+           familyi={L\bibinitperiod},
+           given={Joy},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=98c2a9dda201a0fc3541778e58e0f505}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Thomas\bibnamedelima T.},
+           giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1018a27a966aab6d7a7735485eb38ef6}
+      \strng{fullhash}{da1a37c17d08e13c336ecbc96db60f81}
+      \strng{bibnamehash}{1018a27a966aab6d7a7735485eb38ef6}
+      \strng{authorbibnamehash}{1018a27a966aab6d7a7735485eb38ef6}
+      \strng{authornamehash}{1018a27a966aab6d7a7735485eb38ef6}
+      \strng{authorfullhash}{da1a37c17d08e13c336ecbc96db60f81}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A component based method ({CompCor}) for the reduction of noise in both blood oxygenation level-dependent ({BOLD}) and perfusion-based functional magnetic resonance imaging ({fMRI}) data is presented. In the proposed method, significant principal components are derived from noise regions-of-interest ({ROI}) in which the time series data are unlikely to be modulated by neural activity. These components are then included as nuisance parameters within general linear models for {BOLD} and perfusion-based {fMRI} time series data. Two approaches for the determination of the noise {ROI} are considered. The first method uses high-resolution anatomical data to define a region of interest composed primarily of white matter and cerebrospinal fluid, while the second method defines a region based upon the temporal standard deviation of the time series data. With the application of {CompCor}, the temporal standard deviation of resting-state perfusion and {BOLD} data in gray matter regions was significantly reduced as compared to either no correction or the application of a previously described retrospective image based correction scheme ({RETROICOR}). For both functional perfusion and {BOLD} data, the application of {CompCor} significantly increased the number of activated voxels as compared to no correction. In addition, for functional {BOLD} data, there were significantly more activated voxels detected with {CompCor} as compared to {RETROICOR}. In comparison to {RETROICOR}, {CompCor} has the advantage of not requiring external monitoring of physiological fluctuations.}
+      \field{day}{1}
+      \field{issn}{1053-8119}
+      \field{journaltitle}{{NeuroImage}}
+      \field{month}{8}
+      \field{number}{1}
+      \field{shortjournal}{{NeuroImage}}
+      \field{title}{A component based noise correction method ({CompCor}) for {BOLD} and perfusion based {fMRI}}
+      \field{volume}{37}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{pages}{90\bibrangedash 101}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.neuroimage.2007.04.042
+      \endverb
+      \verb{file}
+      \verb Full Text:/home/austin/snap/zotero-snap/common/Zotero/storage/IX6GTRPE/Behzadi et al. - 2007 - A component based noise correction method (CompCor) for BOLD and perfusion based fMRI.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1053811907003837
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1053811907003837
+      \endverb
+    \endentry
+    \entry{Bolger2003}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1683f293759a9bcb303f7873da38210a}{%
+           family={Bolger},
+           familyi={B\bibinitperiod},
+           given={Niall},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f3675ff44cba4c7caf540e43d93b25f}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Angelina},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af8276583519c0f9169a8e36498adabe}{%
+           family={Rafaeli},
+           familyi={R\bibinitperiod},
+           given={Eshkol},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Annual Reviews}%
+      }
+      \strng{namehash}{af2bf0ef9faee6f4b1d4bbfc984bebf5}
+      \strng{fullhash}{e2391ceb70f1bdad804efa8c0fe22a0a}
+      \strng{bibnamehash}{af2bf0ef9faee6f4b1d4bbfc984bebf5}
+      \strng{authorbibnamehash}{af2bf0ef9faee6f4b1d4bbfc984bebf5}
+      \strng{authornamehash}{af2bf0ef9faee6f4b1d4bbfc984bebf5}
+      \strng{authorfullhash}{e2391ceb70f1bdad804efa8c0fe22a0a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1545-2085}
+      \field{journaltitle}{Annual Review of Psychology}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Diary Methods: Capturing Life as it is Lived}
+      \field{volume}{54}
+      \field{year}{2003}
+      \field{pages}{579\bibrangedash 616}
+      \range{pages}{38}
+      \verb{doi}
+      \verb 10.1146/annurev.psych.54.101601.145030
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1146/annurev.psych.54.101601.145030
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1146/annurev.psych.54.101601.145030
+      \endverb
+    \endentry
+    \entry{bradley_attentional_1997}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=6dd06bd5321d61bddee3004e75c23217}{%
+           family={Bradley},
+           familyi={B\bibinitperiod},
+           given={Brendan\bibnamedelima P.},
+           giveni={B\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=84e13c89a656ed39ed80fdff243f5662}{%
+           family={Mogg},
+           familyi={M\bibinitperiod},
+           given={Karin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55b67b5385fd09c9d0e647dbf19bc034}{%
+           family={Millar},
+           familyi={M\bibinitperiod},
+           given={Neil},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f42ced41a60c0fb6441bb8d7c40dfa64}{%
+           family={Bonham-Carter},
+           familyi={B\bibinithyphendelim C\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d0a20f183319035fbc804e2d93713f0}{%
+           family={Fergusson},
+           familyi={F\bibinitperiod},
+           given={Emma},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=934377298e7c10ecc93d4fc179fc3c73}{%
+           family={Jenkins},
+           familyi={J\bibinitperiod},
+           given={Jane},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a6a5ae27a330479cdcedbbd94ab614d0}{%
+           family={Parr},
+           familyi={P\bibinitperiod},
+           given={Michelle},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3136cac7b36eb18114923e5102d6af05}
+      \strng{fullhash}{8153e185cf63b3663c48d8703a3bca94}
+      \strng{bibnamehash}{3136cac7b36eb18114923e5102d6af05}
+      \strng{authorbibnamehash}{3136cac7b36eb18114923e5102d6af05}
+      \strng{authornamehash}{3136cac7b36eb18114923e5102d6af05}
+      \strng{authorfullhash}{8153e185cf63b3663c48d8703a3bca94}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0269-9931, 1464-0600}
+      \field{journaltitle}{Cognition \& Emotion}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Cognition \& Emotion}
+      \field{title}{Attentional Biases for Emotional Faces}
+      \field{volume}{11}
+      \field{year}{1997}
+      \field{dateera}{ce}
+      \field{pages}{25\bibrangedash 42}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1080/026999397380014
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/austin/snap/zotero-snap/common/Zotero/storage/WE9Q2NDC/Bradley et al. - 1997 - Attentional Biases for Emotional Faces.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.tandfonline.com/doi/abs/10.1080/026999397380014
+      \endverb
+      \verb{url}
+      \verb http://www.tandfonline.com/doi/abs/10.1080/026999397380014
+      \endverb
+    \endentry
+    \entry{ciric_templateflow_2022}{article}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=65fe66338785b06da587c4b83512be0c}{%
+           family={Ciric},
+           familyi={C\bibinitperiod},
+           given={Rastko},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cfcaa3b8cc739bd4756c6854731a4577}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={William\bibnamedelima H.},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b39957bf176ced639bb909605e1fb4a8}{%
+           family={Lorenz},
+           familyi={L\bibinitperiod},
+           given={Romy},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9690af972845ee41959a41c2eb56dd1}{%
+           family={Goncalves},
+           familyi={G\bibinitperiod},
+           given={Mathias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa83de5723e2c57835c9302422909b52}{%
+           family={{MacNicol}},
+           familyi={M\bibinitperiod},
+           given={Eilidh\bibnamedelima E.},
+           giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f629153ba111aa5f9ad5155beb0dd3e1}{%
+           family={Markiewicz},
+           familyi={M\bibinitperiod},
+           given={Christopher\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2fb284cc447dda0b361d24f661475ce}{%
+           family={Halchenko},
+           familyi={H\bibinitperiod},
+           given={Yaroslav\bibnamedelima O.},
+           giveni={Y\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76dba40c9142166c5540f708b967f13d}{%
+           family={Ghosh},
+           familyi={G\bibinitperiod},
+           given={Satrajit\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37fd6602fafa336c9f4f082ecd471b6c}{%
+           family={Gorgolewski},
+           familyi={G\bibinitperiod},
+           given={Krzysztof\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21ffb9bf6762df0fb232215885be17e1}{%
+           family={Poldrack},
+           familyi={P\bibinitperiod},
+           given={Russell\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bad82335174e52244c1c45aa43507b06}{%
+           family={Esteban},
+           familyi={E\bibinitperiod},
+           given={Oscar},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{964bd36ef3e04e89d66e885e7bce0ae2}
+      \strng{fullhash}{b8b4f710f5f990a3afac723e0466c53a}
+      \strng{bibnamehash}{964bd36ef3e04e89d66e885e7bce0ae2}
+      \strng{authorbibnamehash}{964bd36ef3e04e89d66e885e7bce0ae2}
+      \strng{authornamehash}{964bd36ef3e04e89d66e885e7bce0ae2}
+      \strng{authorfullhash}{b8b4f710f5f990a3afac723e0466c53a}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Reference anatomies of the brain (‘templates’) and corresponding atlases are the foundation for reporting standardized neuroimaging results. Currently, there is no registry of templates and atlases; therefore, the redistribution of these resources occurs either bundled within existing software or in ad hoc ways such as downloads from institutional sites and general-purpose data repositories. We introduce {TemplateFlow} as a publicly available framework for human and non-human brain models. The framework combines an open database with software for access, management, and vetting, allowing scientists to share their resources under {FAIR}—findable, accessible, interoperable, and reusable—principles. {TemplateFlow} enables multifaceted insights into brains across species, and supports multiverse analyses testing whether results generalize across standard references, scales, and in the long term, species.}
+      \field{issn}{1548-7105}
+      \field{journaltitle}{Nature Methods}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{note}{Publisher: Nature Publishing Group}
+      \field{number}{12}
+      \field{shortjournal}{Nat Methods}
+      \field{shorttitle}{{TemplateFlow}}
+      \field{title}{{TemplateFlow}: {FAIR}-sharing of multi-scale, multi-species brain models}
+      \field{volume}{19}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{1568\bibrangedash 1571}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/s41592-022-01681-2
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/austin/snap/zotero-snap/common/Zotero/storage/6SK2KWIQ/Ciric et al. - 2022 - TemplateFlow FAIR-sharing of multi-scale, multi-species brain models.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41592-022-01681-2
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41592-022-01681-2
+      \endverb
+      \keyw{Computational neuroscience,Image processing,Software,Databases,Translational research}
+    \endentry
+    \entry{Nilearn}{software}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d9ff014905c012fe3964d2b2a0d3d2d6}{%
+           family={contributors},
+           familyi={c\bibinitperiod},
+           given={Nilearn},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d9ff014905c012fe3964d2b2a0d3d2d6}
+      \strng{fullhash}{d9ff014905c012fe3964d2b2a0d3d2d6}
+      \strng{bibnamehash}{d9ff014905c012fe3964d2b2a0d3d2d6}
+      \strng{authorbibnamehash}{d9ff014905c012fe3964d2b2a0d3d2d6}
+      \strng{authornamehash}{d9ff014905c012fe3964d2b2a0d3d2d6}
+      \strng{authorfullhash}{d9ff014905c012fe3964d2b2a0d3d2d6}
+      \field{sortinit}{c}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{nilearn}}
+      \verb{doi}
+      \verb https://doi.org/10.5281/zenodo.8397156
+      \endverb
+      \verb{urlraw}
+      \verb https://github.com/nilearn/nilearn
+      \endverb
+      \verb{url}
+      \verb https://github.com/nilearn/nilearn
+      \endverb
+    \endentry
+    \entry{Csikszentmihalyi1977}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4102f9749c0a86a4a970e9b54bfb1b29}{%
+           family={Csikszentmihalyi},
+           familyi={C\bibinitperiod},
+           given={Mihaly},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=be7da4a3b0eeed3c60f4cc123c93acd0}{%
+           family={Larson},
+           familyi={L\bibinitperiod},
+           given={Reed},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=23e8b11c688c83f22cf2dbedf68d4db9}{%
+           family={Prescott},
+           familyi={P\bibinitperiod},
+           given={Suzanne},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{f80fb487488eb149aa596fa79eb69863}
+      \strng{fullhash}{f9c641f3e52be066728b9b8ad8181bd8}
+      \strng{bibnamehash}{f80fb487488eb149aa596fa79eb69863}
+      \strng{authorbibnamehash}{f80fb487488eb149aa596fa79eb69863}
+      \strng{authornamehash}{f80fb487488eb149aa596fa79eb69863}
+      \strng{authorfullhash}{f9c641f3e52be066728b9b8ad8181bd8}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1573-6601}
+      \field{journaltitle}{Journal of Youth and Adolescence}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{The ecology of adolescent activity and experience}
+      \field{volume}{6}
+      \field{year}{1977}
+      \field{pages}{281\bibrangedash 294}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/bf02138940
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/BF02138940
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/BF02138940
+      \endverb
+    \endentry
+    \entry{esteban_fmriprep_2019}{article}{}
+      \name{author}{16}{}{%
+        {{un=0,uniquepart=base,hash=bad82335174e52244c1c45aa43507b06}{%
+           family={Esteban},
+           familyi={E\bibinitperiod},
+           given={Oscar},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f629153ba111aa5f9ad5155beb0dd3e1}{%
+           family={Markiewicz},
+           familyi={M\bibinitperiod},
+           given={Christopher\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef5eef041920e580008ab9a16a8e9e66}{%
+           family={Blair},
+           familyi={B\bibinitperiod},
+           given={Ross\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd7225af7e03d49e604a740da1d5b036}{%
+           family={Moodie},
+           familyi={M\bibinitperiod},
+           given={Craig\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=687feab2947e3196e37f5a5bfa452564}{%
+           family={Isik},
+           familyi={I\bibinitperiod},
+           given={A.\bibnamedelimi Ilkay},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=885ec85ed4ff8592bd32e1ed7b958bef}{%
+           family={Erramuzpe},
+           familyi={E\bibinitperiod},
+           given={Asier},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb62120a928afd35a5f47434f21a1640}{%
+           family={Kent},
+           familyi={K\bibinitperiod},
+           given={James\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9690af972845ee41959a41c2eb56dd1}{%
+           family={Goncalves},
+           familyi={G\bibinitperiod},
+           given={Mathias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2f252ee8b737cfd05345bd2da19e5f41}{%
+           family={{DuPre}},
+           familyi={D\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=425d8cc2d55a57ab1ee5aca7c4b8501d}{%
+           family={Snyder},
+           familyi={S\bibinitperiod},
+           given={Madeleine},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9fa9120e1f7d3ad2cf55b2340f31d4b}{%
+           family={Oya},
+           familyi={O\bibinitperiod},
+           given={Hiroyuki},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76dba40c9142166c5540f708b967f13d}{%
+           family={Ghosh},
+           familyi={G\bibinitperiod},
+           given={Satrajit\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=139ff233b3624a3c665fedc20ef6d544}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={Jessey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9d3ea936d9978cf9365d635832fad37}{%
+           family={Durnez},
+           familyi={D\bibinitperiod},
+           given={Joke},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21ffb9bf6762df0fb232215885be17e1}{%
+           family={Poldrack},
+           familyi={P\bibinitperiod},
+           given={Russell\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37fd6602fafa336c9f4f082ecd471b6c}{%
+           family={Gorgolewski},
+           familyi={G\bibinitperiod},
+           given={Krzysztof\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{baf7b84c303c23e9582d5aa95dc783ea}
+      \strng{fullhash}{aa9c7ba987b86ccaffe49a5c82ba4342}
+      \strng{bibnamehash}{baf7b84c303c23e9582d5aa95dc783ea}
+      \strng{authorbibnamehash}{baf7b84c303c23e9582d5aa95dc783ea}
+      \strng{authornamehash}{baf7b84c303c23e9582d5aa95dc783ea}
+      \strng{authorfullhash}{aa9c7ba987b86ccaffe49a5c82ba4342}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Preprocessing of functional magnetic resonance imaging ({fMRI}) involves numerous steps to clean and standardize the data before statistical analysis. Generally, researchers create ad hoc preprocessing workflows for each dataset, building upon a large inventory of available tools. The complexity of these workflows has snowballed with rapid advances in acquisition and processing. We introduce {fMRIPrep}, an analysis-agnostic tool that addresses the challenge of robust and reproducible preprocessing for {fMRI} data. {fMRIPrep} automatically adapts a best-in-breed workflow to the idiosyncrasies of virtually any dataset, ensuring high-quality preprocessing without manual intervention. By introducing visual assessment checkpoints into an iterative integration framework for software testing, we show that {fMRIPrep} robustly produces high-quality results on a diverse {fMRI} data collection. Additionally, {fMRIPrep} introduces less uncontrolled spatial smoothness than observed with commonly used preprocessing tools. {fMRIPrep} equips neuroscientists with an easy-to-use and transparent preprocessing workflow, which can help ensure the validity of inference and the interpretability of results.}
+      \field{issn}{1548-7105}
+      \field{journaltitle}{Nature Methods}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{note}{Publisher: Nature Publishing Group}
+      \field{number}{1}
+      \field{shortjournal}{Nat Methods}
+      \field{shorttitle}{{fMRIPrep}}
+      \field{title}{{fMRIPrep}: a robust preprocessing pipeline for functional {MRI}}
+      \field{volume}{16}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{111\bibrangedash 116}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1038/s41592-018-0235-4
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/austin/snap/zotero-snap/common/Zotero/storage/76CGFKCR/Esteban et al. - 2019 - fMRIPrep a robust preprocessing pipeline for functional MRI.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41592-018-0235-4
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41592-018-0235-4
+      \endverb
+      \keyw{Computational neuroscience,Image processing,Magnetic resonance imaging,Software,Standards}
+    \endentry
+    \entry{fonov_unbiased_2009}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=691302bd37be7c6f29b9a06f85513016}{%
+           family={Fonov},
+           familyi={F\bibinitperiod},
+           given={{VS}},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9afb5514deeaace8449fb1950632b8fc}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={{AC}},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9608ee774d5251c73da3d942ee3b3c76}{%
+           family={{McKinstry}},
+           familyi={M\bibinitperiod},
+           given={{RC}},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=87b59f85bedc5dc0967185d7c2b1ab28}{%
+           family={Almli},
+           familyi={A\bibinitperiod},
+           given={{CR}},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=573808ce6907798ead179cd4dfd02630}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={{DL}},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{78dcbad2a6242970c0955f94b4f98503}
+      \strng{fullhash}{4a6eb8c9ccce40f05770cb63604e0744}
+      \strng{bibnamehash}{78dcbad2a6242970c0955f94b4f98503}
+      \strng{authorbibnamehash}{78dcbad2a6242970c0955f94b4f98503}
+      \strng{authornamehash}{78dcbad2a6242970c0955f94b4f98503}
+      \strng{authorfullhash}{4a6eb8c9ccce40f05770cb63604e0744}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{1053-8119}
+      \field{journaltitle}{{NeuroImage}}
+      \field{month}{7}
+      \field{series}{Organization for Human Brain Mapping 2009 Annual Meeting}
+      \field{shortjournal}{{NeuroImage}}
+      \field{title}{Unbiased nonlinear average age-appropriate brain templates from birth to adulthood}
+      \field{volume}{47}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{pages}{S102}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/S1053-8119(09)70884-5
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1053811909708845
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1053811909708845
+      \endverb
+    \endentry
+    \entry{Genet2013}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=926f1ae1434146fc013699afcbd1b68b}{%
+           family={Genet},
+           familyi={G\bibinitperiod},
+           given={Jessica\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=15384f6dfda751ff683824de90507dbf}{%
+           family={Malooly},
+           familyi={M\bibinitperiod},
+           given={Ashley\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9dd6d17f98463649185b618c8fa609e4}{%
+           family={Siemer},
+           familyi={S\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Informa UK Limited}%
+      }
+      \strng{namehash}{1fbec617e9a949e247d1c50b6f05c9f7}
+      \strng{fullhash}{f82387d4414c887a830792dd724b00ef}
+      \strng{bibnamehash}{1fbec617e9a949e247d1c50b6f05c9f7}
+      \strng{authorbibnamehash}{1fbec617e9a949e247d1c50b6f05c9f7}
+      \strng{authornamehash}{1fbec617e9a949e247d1c50b6f05c9f7}
+      \strng{authorfullhash}{f82387d4414c887a830792dd724b00ef}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1464-0600}
+      \field{journaltitle}{Cognition and Emotion}
+      \field{month}{6}
+      \field{number}{4}
+      \field{title}{Flexibility is not always adaptive: Affective flexibility and inflexibility predict rumination use in everyday life}
+      \field{volume}{27}
+      \field{year}{2013}
+      \field{pages}{685\bibrangedash 695}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1080/02699931.2012.733351
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1080/02699931.2012.733351
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1080/02699931.2012.733351
+      \endverb
+    \endentry
+    \entry{globisch_fear_1999}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=7dc7a28cbb930cda5d7de0d28cd56cb6}{%
+           family={Globisch},
+           familyi={G\bibinitperiod},
+           given={Jutta},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a7ede1e3ebe53df794a5b500613fb7d1}{%
+           family={Hamm},
+           familyi={H\bibinitperiod},
+           given={Alfons\bibnamedelima O.},
+           giveni={A\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=117c25b0f5129a84a701e038cd86f731}{%
+           family={Esteves},
+           familyi={E\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a0c0151ef86f2f7a5ba9889b42933ff}{%
+           family={Öhman},
+           familyi={Ö\bibinitperiod},
+           given={Arne},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6069b5036f693db0ec8955202636ef5b}
+      \strng{fullhash}{7ae6289249ee040c848aaddb4a209062}
+      \strng{bibnamehash}{6069b5036f693db0ec8955202636ef5b}
+      \strng{authorbibnamehash}{6069b5036f693db0ec8955202636ef5b}
+      \strng{authornamehash}{6069b5036f693db0ec8955202636ef5b}
+      \strng{authorfullhash}{7ae6289249ee040c848aaddb4a209062}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The temporal course of startle reflex modulation and autonomic response patterns to fear-relevant and fear-irrelevant pictures in subjects with high and low levels of animal fear was investigated. Thirty-eight high-fear and 48 low-fear volunteers viewed photos of snakes and spiders and pictures of neutral and pleasant content. The slides were presented for 6 s or for only 150 ms, depending on the group. Acoustic startle probes were presented at five different times after slide onset. Relative potentiation of the startle responses started 300 ms after onset of snake/spider pictures in fearful subjects. This fear-potentiated startle effect was maintained for the later probe times and was identical in the 150-ms condition. Fear-relevant pictures also prompted a sympathetically dominated autonomic response profile in fearful persons. These data support the idea that fear can be activated very rapidly, requiring only minimal stimulus input.}
+      \field{issn}{1469-8986}
+      \field{journaltitle}{Psychophysiology}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{shorttitle}{Fear appears fast}
+      \field{title}{Fear appears fast: Temporal course of startle reflex potentiation in animal fearful subjects}
+      \field{volume}{36}
+      \field{year}{1999}
+      \field{dateera}{ce}
+      \field{pages}{66\bibrangedash 75}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1017/S0048577299970634
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/austin/snap/zotero-snap/common/Zotero/storage/D22NHHSZ/Globisch et al. - 1999 - Fear appears fast Temporal course of startle reflex potentiation in animal fearful subjects.pdf:application/pdf;Snapshot:/home/austin/snap/zotero-snap/common/Zotero/storage/3DMIJSEE/S0048577299970634.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1017/S0048577299970634
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1017/S0048577299970634
+      \endverb
+      \keyw{Blood pressure,Fear,Phobia,Prepulse inhibition,Skin conductance,Startle eyeblink}
+    \endentry
+    \entry{glover_deconvolution_1999}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dfe4fe5989a91d95452720fc8c26a174}{%
+           family={Glover},
+           familyi={G\bibinitperiod},
+           given={Gary\bibnamedelima H.},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dfe4fe5989a91d95452720fc8c26a174}
+      \strng{fullhash}{dfe4fe5989a91d95452720fc8c26a174}
+      \strng{bibnamehash}{dfe4fe5989a91d95452720fc8c26a174}
+      \strng{authorbibnamehash}{dfe4fe5989a91d95452720fc8c26a174}
+      \strng{authornamehash}{dfe4fe5989a91d95452720fc8c26a174}
+      \strng{authorfullhash}{dfe4fe5989a91d95452720fc8c26a174}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{10538119}
+      \field{journaltitle}{{NeuroImage}}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{4}
+      \field{shortjournal}{{NeuroImage}}
+      \field{title}{Deconvolution of Impulse Response in Event-Related {BOLD} {fMRI}1}
+      \field{volume}{9}
+      \field{year}{1999}
+      \field{dateera}{ce}
+      \field{pages}{416\bibrangedash 429}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1006/nimg.1998.0419
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1053811998904190
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1053811998904190
+      \endverb
+    \endentry
+    \entry{gorgolewski_nipype_2011}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=7c6283c27b8eb014738736f0b8c7519f}{%
+           family={Gorgolewski},
+           familyi={G\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4102069ab673e606142853559dd9c487}{%
+           family={Burns},
+           familyi={B\bibinitperiod},
+           given={Christopher\bibnamedelima D.},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3afe40090d7a8b36b4a0840e244c8ff}{%
+           family={Madison},
+           familyi={M\bibinitperiod},
+           given={Cindee},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d64b00203a30ca339bf38b26924703c5}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Dav},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2fb284cc447dda0b361d24f661475ce}{%
+           family={Halchenko},
+           familyi={H\bibinitperiod},
+           given={Yaroslav\bibnamedelima O.},
+           giveni={Y\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c809239417dcb9aef9b906eff53933d}{%
+           family={Waskom},
+           familyi={W\bibinitperiod},
+           given={Michael\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76dba40c9142166c5540f708b967f13d}{%
+           family={Ghosh},
+           familyi={G\bibinitperiod},
+           given={Satrajit\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{635c6b511d0a5fd995ba83063a2b2ce8}
+      \strng{fullhash}{da88a87f3953c7f17d03710b054832c2}
+      \strng{bibnamehash}{635c6b511d0a5fd995ba83063a2b2ce8}
+      \strng{authorbibnamehash}{635c6b511d0a5fd995ba83063a2b2ce8}
+      \strng{authornamehash}{635c6b511d0a5fd995ba83063a2b2ce8}
+      \strng{authorfullhash}{da88a87f3953c7f17d03710b054832c2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Current neuroimaging software offer users an incredible opportunity to analyze their data in different ways, with different underlying assumptions. Several sophisticated software packages (e.g., {AFNI}, {BrainVoyager}, {FSL}, {FreeSurfer}, Nipy, R, {SPM}) are used to process and analyze large and often diverse (highly multi-dimensional) data. However, this heterogeneous collection of specialized applications creates several issues that hinder replicable, efficient, and optimal use of neuroimaging analysis approaches: (1) No uniform access to neuroimaging analysis software and usage information; (2) No framework for comparative algorithm development and dissemination; (3) Personnel turnover in laboratories often limits methodological continuity and training new personnel takes time; (4) Neuroimaging software packages do not address computational efficiency; and (5) Methods sections in journal articles are inadequate for reproducing results. To address these issues, we present Nipype (Neuroimaging in Python: Pipelines and Interfaces; http://nipy.org/nipype), an open-source, community-developed, software package, and scriptable library. Nipype solves the issues by providing Interfaces to existing neuroimaging software with uniform usage semantics and by facilitating interaction between these packages using Workflows. Nipype provides an environment that encourages interactive exploration of algorithms, eases the design of Workflows within and between packages, allows rapid comparative development of algorithms and reduces the learning curve necessary to use different packages. Nipype supports both local and remote execution on multi-core machines and clusters, without additional scripting. Nipype is Berkeley Software Distribution licensed, allowing anyone unrestricted usage. An open, community-driven development philosophy allows the software to quickly adapt and address the varied needs of the evolving neuroimaging community, especially in the context of increasing demand for reproducible research.}
+      \field{issn}{1662-5196}
+      \field{journaltitle}{Frontiers in Neuroinformatics}
+      \field{shortjournal}{Front Neuroinform}
+      \field{shorttitle}{Nipype}
+      \field{title}{Nipype: a flexible, lightweight and extensible neuroimaging data processing framework in python}
+      \field{volume}{5}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{13}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fninf.2011.00013
+      \endverb
+      \verb{file}
+      \verb Full Text:/home/austin/snap/zotero-snap/common/Zotero/storage/SH7TKE7K/Gorgolewski et al. - 2011 - Nipype a flexible, lightweight and extensible neuroimaging data processing framework in python.pdf:application/pdf
+      \endverb
+      \keyw{data processing,neuroimaging,pipeline,Python,reproducible research,workflow}
+    \endentry
+    \entry{greve_accurate_2009}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f880031e4cc232b5d1f3dfb47858afd6}{%
+           family={Greve},
+           familyi={G\bibinitperiod},
+           given={Douglas\bibnamedelima N.},
+           giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e4210e5a0305aced45740a9ccb645743}{%
+           family={Fischl},
+           familyi={F\bibinitperiod},
+           given={Bruce},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d0fef06bc55183cb4a51c9e3f36d021d}
+      \strng{fullhash}{d0fef06bc55183cb4a51c9e3f36d021d}
+      \strng{bibnamehash}{d0fef06bc55183cb4a51c9e3f36d021d}
+      \strng{authorbibnamehash}{d0fef06bc55183cb4a51c9e3f36d021d}
+      \strng{authornamehash}{d0fef06bc55183cb4a51c9e3f36d021d}
+      \strng{authorfullhash}{d0fef06bc55183cb4a51c9e3f36d021d}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The fine spatial scales of the structures in the human brain represent an enormous challenge to the successful integration of information from different images for both within- and between-subject analysis. While many algorithms to register image pairs from the same subject exist, visual inspection shows that their accuracy and robustness to be suspect, particularly when there are strong intensity gradients and/or only part of the brain is imaged. This paper introduces a new algorithm called Boundary-Based Registration, or {BBR}. The novelty of {BBR} is that it treats the two images very differently. The reference image must be of sufficient resolution and quality to extract surfaces that separate tissue types. The input image is then aligned to the reference by maximizing the intensity gradient across tissue boundaries. Several lower quality images can be aligned through their alignment with the reference. Visual inspection and {fMRI} results show that {BBR} is more accurate than correlation ratio or normalized mutual information and is considerably more robust to even strong intensity inhomogeneities. {BBR} also excels at aligning partial-brain images to whole-brain images, a domain in which existing registration algorithms frequently fail. Even in the limit of registering a single slice, we show the {BBR} results to be robust and accurate.}
+      \field{day}{15}
+      \field{issn}{1053-8119}
+      \field{journaltitle}{{NeuroImage}}
+      \field{month}{10}
+      \field{number}{1}
+      \field{shortjournal}{{NeuroImage}}
+      \field{title}{Accurate and robust brain image alignment using boundary-based registration}
+      \field{volume}{48}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{pages}{63\bibrangedash 72}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.neuroimage.2009.06.060
+      \endverb
+      \verb{file}
+      \verb Accepted Version:/home/austin/snap/zotero-snap/common/Zotero/storage/I2GJJY7H/Greve and Fischl - 2009 - Accurate and robust brain image alignment using boundary-based registration.pdf:application/pdf;ScienceDirect Snapshot:/home/austin/snap/zotero-snap/common/Zotero/storage/AXL7J96Z/S1053811909006752.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1053811909006752
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1053811909006752
+      \endverb
+    \endentry
+    \entry{Gross1998-zd}{article}{}
+      \name{author}{1}{}{%
+        {{un=2,uniquepart=given,hash=706bd7333d79e3e84cdf7c79bdd4db2a}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={James\bibnamedelima J},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{706bd7333d79e3e84cdf7c79bdd4db2a}
+      \strng{fullhash}{706bd7333d79e3e84cdf7c79bdd4db2a}
+      \strng{bibnamehash}{706bd7333d79e3e84cdf7c79bdd4db2a}
+      \strng{authorbibnamehash}{706bd7333d79e3e84cdf7c79bdd4db2a}
+      \strng{authornamehash}{706bd7333d79e3e84cdf7c79bdd4db2a}
+      \strng{authorfullhash}{706bd7333d79e3e84cdf7c79bdd4db2a}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of personality and social psychology}
+      \field{number}{1}
+      \field{title}{Antecedent-and response-focused emotion regulation: divergent consequences for experience, expression, and physiology.}
+      \field{volume}{74}
+      \field{year}{1998}
+      \field{pages}{224}
+      \range{pages}{1}
+    \endentry
+    \entry{Gross1998}{article}{}
+      \name{author}{1}{}{%
+        {{un=2,uniquepart=given,hash=706bd7333d79e3e84cdf7c79bdd4db2a}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={James\bibnamedelima J},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Sage CA: Los Angeles, CA}%
+      }
+      \strng{namehash}{706bd7333d79e3e84cdf7c79bdd4db2a}
+      \strng{fullhash}{706bd7333d79e3e84cdf7c79bdd4db2a}
+      \strng{bibnamehash}{706bd7333d79e3e84cdf7c79bdd4db2a}
+      \strng{authorbibnamehash}{706bd7333d79e3e84cdf7c79bdd4db2a}
+      \strng{authornamehash}{706bd7333d79e3e84cdf7c79bdd4db2a}
+      \strng{authorfullhash}{706bd7333d79e3e84cdf7c79bdd4db2a}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of general psychology}
+      \field{number}{3}
+      \field{title}{The emerging field of emotion regulation: An integrative review}
+      \field{volume}{2}
+      \field{year}{1998}
+      \field{pages}{271\bibrangedash 299}
+      \range{pages}{29}
+    \endentry
+    \entry{Gross2015}{article}{}
+      \name{author}{1}{}{%
+        {{un=2,uniquepart=given,hash=706bd7333d79e3e84cdf7c79bdd4db2a}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={James\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{publisher}{1}{%
+        {Informa UK Limited}%
+      }
+      \strng{namehash}{706bd7333d79e3e84cdf7c79bdd4db2a}
+      \strng{fullhash}{706bd7333d79e3e84cdf7c79bdd4db2a}
+      \strng{bibnamehash}{706bd7333d79e3e84cdf7c79bdd4db2a}
+      \strng{authorbibnamehash}{706bd7333d79e3e84cdf7c79bdd4db2a}
+      \strng{authornamehash}{706bd7333d79e3e84cdf7c79bdd4db2a}
+      \strng{authorfullhash}{706bd7333d79e3e84cdf7c79bdd4db2a}
+      \field{extraname}{3}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1532-7965}
+      \field{journaltitle}{Psychological Inquiry}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{The Extended Process Model of Emotion Regulation: Elaborations, Applications, and Future Directions}
+      \field{volume}{26}
+      \field{year}{2015}
+      \field{pages}{130\bibrangedash 137}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1080/1047840x.2015.989751
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1080/1047840X.2015.989751
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1080/1047840X.2015.989751
+      \endverb
+    \endentry
+    \entry{Hoppmann2015}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1234e954427725b31f9a4ecddaebdf50}{%
+           family={Hoppmann},
+           familyi={H\bibinitperiod},
+           given={Christiane\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab42f27697261cf7451b253c93f383f4}{%
+           family={Ho},
+           familyi={H\bibinitperiod},
+           given={Amy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{b8cc19223ba85a5dada7e9d7e88e1b5d}
+      \strng{fullhash}{b8cc19223ba85a5dada7e9d7e88e1b5d}
+      \strng{bibnamehash}{b8cc19223ba85a5dada7e9d7e88e1b5d}
+      \strng{authorbibnamehash}{b8cc19223ba85a5dada7e9d7e88e1b5d}
+      \strng{authornamehash}{b8cc19223ba85a5dada7e9d7e88e1b5d}
+      \strng{authorfullhash}{b8cc19223ba85a5dada7e9d7e88e1b5d}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781118521373}
+      \field{journaltitle}{The Encyclopedia of Adulthood and Aging}
+      \field{month}{12}
+      \field{title}{Ecological Momentary Assessment}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1002/9781118521373.wbeaa102
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1002/9781118521373.WBEAA102
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1002/9781118521373.WBEAA102
+      \endverb
+    \endentry
+    \entry{hutton_image_2002}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=4819e73f8076fd4134687d7faa36464d}{%
+           family={Hutton},
+           familyi={H\bibinitperiod},
+           given={Chloe},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58e902212b6d3677da8b687964ef4f05}{%
+           family={Bork},
+           familyi={B\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e30dfadf6058731f40ef39bc1eb6d8b3}{%
+           family={Josephs},
+           familyi={J\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b54a1ccf55519eb1977e18f08195899}{%
+           family={Deichmann},
+           familyi={D\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f62428d2d65bafab585e44b3607bc7c6}{%
+           family={Ashburner},
+           familyi={A\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd7bd3c4fbfe97303797f73f2e456b7a}{%
+           family={Turner},
+           familyi={T\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{97b52b379e9a741e8bef4e06ac32ff5f}
+      \strng{fullhash}{84c5c0687b5302d3f842f155b2ee12e7}
+      \strng{bibnamehash}{97b52b379e9a741e8bef4e06ac32ff5f}
+      \strng{authorbibnamehash}{97b52b379e9a741e8bef4e06ac32ff5f}
+      \strng{authornamehash}{97b52b379e9a741e8bef4e06ac32ff5f}
+      \strng{authorfullhash}{84c5c0687b5302d3f842f155b2ee12e7}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{10538119}
+      \field{journaltitle}{{NeuroImage}}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{1}
+      \field{shortjournal}{{NeuroImage}}
+      \field{shorttitle}{Image Distortion Correction in {fMRI}}
+      \field{title}{Image Distortion Correction in {fMRI}: A Quantitative Evaluation}
+      \field{volume}{16}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{pages}{217\bibrangedash 240}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1006/nimg.2001.1054
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1053811901910547
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1053811901910547
+      \endverb
+    \endentry
+    \entry{jenkinson_improved_2002}{article}{}
+      \name{author}{4}{ul=2}{%
+        {{un=0,uniquepart=base,hash=02d16eb5d8b0d0af1320675587ee5db5}{%
+           family={Jenkinson},
+           familyi={J\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d477f03e32a47258db6ba86a01337d5}{%
+           family={Bannister},
+           familyi={B\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b543ac15de34fc7c831ff5619b340256}{%
+           family={Brady},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0335390e6dcad77f0091d57516ec815}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c5eae81f3c5bfe69fd3cd052351d503a}
+      \strng{fullhash}{a656a2144802aa4111fb7685f5753ae0}
+      \strng{bibnamehash}{c5eae81f3c5bfe69fd3cd052351d503a}
+      \strng{authorbibnamehash}{c5eae81f3c5bfe69fd3cd052351d503a}
+      \strng{authornamehash}{c5eae81f3c5bfe69fd3cd052351d503a}
+      \strng{authorfullhash}{a656a2144802aa4111fb7685f5753ae0}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Linear registration and motion correction are important components of structural and functional brain image analysis. Most modern methods optimize some intensity-based cost function to determine the best registration. To date, little attention has been focused on the optimization method itself, even though the success of most registration methods hinges on the quality of this optimization. This paper examines the optimization process in detail and demonstrates that the commonly used multiresolution local optimization methods can, and do, get trapped in local minima. To address this problem, two approaches are taken: (1) to apodize the cost function and (2) to employ a novel hybrid global–local optimization method. This new optimization method is specifically designed for registering whole brain images. It substantially reduces the likelihood of producing misregistrations due to being trapped by local minima. The increased robustness of the method, compared to other commonly used methods, is demonstrated by a consistency test. In addition, the accuracy of the registration is demonstrated by a series of experiments with motion correction. These motion correction experiments also investigate how the results are affected by different cost functions and interpolation methods.}
+      \field{day}{1}
+      \field{issn}{1053-8119}
+      \field{journaltitle}{{NeuroImage}}
+      \field{month}{10}
+      \field{number}{2}
+      \field{shortjournal}{{NeuroImage}}
+      \field{title}{Improved Optimization for the Robust and Accurate Linear Registration and Motion Correction of Brain Images}
+      \field{volume}{17}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{pages}{825\bibrangedash 841}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1006/nimg.2002.1132
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/home/austin/snap/zotero-snap/common/Zotero/storage/JJQLMIFG/S1053811902911328.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1053811902911328
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1053811902911328
+      \endverb
+      \keyw{accuracy,affine transformation,global optimization,motion correction,multimodal registration,multiresolution search,robustness}
+    \endentry
+    \entry{jenkinson_global_2001}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=02d16eb5d8b0d0af1320675587ee5db5}{%
+           family={Jenkinson},
+           familyi={J\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0335390e6dcad77f0091d57516ec815}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3b9c28cfc4bbd0a630102d6011d7d950}
+      \strng{fullhash}{3b9c28cfc4bbd0a630102d6011d7d950}
+      \strng{bibnamehash}{3b9c28cfc4bbd0a630102d6011d7d950}
+      \strng{authorbibnamehash}{3b9c28cfc4bbd0a630102d6011d7d950}
+      \strng{authornamehash}{3b9c28cfc4bbd0a630102d6011d7d950}
+      \strng{authorfullhash}{3b9c28cfc4bbd0a630102d6011d7d950}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Registration is an important component of medical image analysis and for analysing large amounts of data it is desirable to have fully automatic registration methods. Many different automatic registration methods have been proposed to date, and almost all share a common mathematical framework — one of optimising a cost function. To date little attention has been focused on the optimisation method itself, even though the success of most registration methods hinges on the quality of this optimisation. This paper examines the assumptions underlying the problem of registration for brain images using inter-modal voxel similarity measures. It is demonstrated that the use of local optimisation methods together with the standard multi-resolution approach is not sufficient to reliably find the global minimum. To address this problem, a global optimisation method is proposed that is specifically tailored to this form of registration. A full discussion of all the necessary implementation details is included as this is an important part of any practical method. Furthermore, results are presented for inter-modal, inter-subject registration experiments that show that the proposed method is more reliable at finding the global minimum than several of the currently available registration packages in common usage.}
+      \field{day}{1}
+      \field{issn}{1361-8415}
+      \field{journaltitle}{Medical Image Analysis}
+      \field{month}{6}
+      \field{number}{2}
+      \field{shortjournal}{Medical Image Analysis}
+      \field{title}{A global optimisation method for robust affine registration of brain images}
+      \field{volume}{5}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{pages}{143\bibrangedash 156}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/S1361-8415(01)00036-6
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1361841501000366
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1361841501000366
+      \endverb
+      \keyw{Robustness,Affine transformation,Global optimisation,Multi-resolution search,Multimodal registration}
+    \endentry
+    \entry{kuppens_individual_2009}{article}{}
+      \name{author}{3}{ul=2}{%
+        {{un=0,uniquepart=base,hash=2863d27ddc4b78a7a0496654b8e15822}{%
+           family={Kuppens},
+           familyi={K\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=624dfb34645efd4a731c26bc6e3cd199}{%
+           family={Stouten},
+           familyi={S\bibinitperiod},
+           given={Jeroen},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61a64421629b320bc5bd2eb42b763a60}{%
+           family={Mesquita},
+           familyi={M\bibinitperiod},
+           given={Batja},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4f628e7a80f59d9ae52e21d60113e19a}
+      \strng{fullhash}{fc53ca5f9a1dd0ccdb40f357ff1a4271}
+      \strng{bibnamehash}{4f628e7a80f59d9ae52e21d60113e19a}
+      \strng{authorbibnamehash}{4f628e7a80f59d9ae52e21d60113e19a}
+      \strng{authornamehash}{4f628e7a80f59d9ae52e21d60113e19a}
+      \strng{authorfullhash}{fc53ca5f9a1dd0ccdb40f357ff1a4271}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0269-9931, 1464-0600}
+      \field{journaltitle}{Cognition and Emotion}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{7}
+      \field{shortjournal}{Cognition and Emotion}
+      \field{shorttitle}{Individual differences in emotion components and dynamics}
+      \field{title}{Individual differences in emotion components and dynamics: Introduction to the Special Issue}
+      \field{volume}{23}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{pages}{1249\bibrangedash 1258}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1080/02699930902985605
+      \endverb
+      \verb{file}
+      \verb Submitted Version:/home/austin/snap/zotero-snap/common/Zotero/storage/D4J9DR3U/Kuppens et al. - 2009 - Individual differences in emotion components and dynamics Introduction to the Special Issue.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.tandfonline.com/doi/full/10.1080/02699930902985605
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/doi/full/10.1080/02699930902985605
+      \endverb
+    \endentry
+    \entry{kuppens_looking_2015}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2863d27ddc4b78a7a0496654b8e15822}{%
+           family={Kuppens},
+           familyi={K\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e066e69b72962f4a127e5225858045c}{%
+           family={Verduyn},
+           familyi={V\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{53bd5fcc77514eedda8cbd8fe200cfd2}
+      \strng{fullhash}{53bd5fcc77514eedda8cbd8fe200cfd2}
+      \strng{bibnamehash}{53bd5fcc77514eedda8cbd8fe200cfd2}
+      \strng{authorbibnamehash}{53bd5fcc77514eedda8cbd8fe200cfd2}
+      \strng{authornamehash}{53bd5fcc77514eedda8cbd8fe200cfd2}
+      \strng{authorfullhash}{53bd5fcc77514eedda8cbd8fe200cfd2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{2}
+      \field{issn}{1047-840X, 1532-7965}
+      \field{journaltitle}{Psychological Inquiry}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Psychological Inquiry}
+      \field{title}{Looking at Emotion Regulation Through the Window of Emotion Dynamics}
+      \field{volume}{26}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{72\bibrangedash 79}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1080/1047840X.2015.960505
+      \endverb
+      \verb{urlraw}
+      \verb http://www.tandfonline.com/doi/abs/10.1080/1047840X.2015.960505
+      \endverb
+      \verb{url}
+      \verb http://www.tandfonline.com/doi/abs/10.1080/1047840X.2015.960505
+      \endverb
+    \endentry
+    \entry{Malooly2013}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=15384f6dfda751ff683824de90507dbf}{%
+           family={Malooly},
+           familyi={M\bibinitperiod},
+           given={Ashley\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=926f1ae1434146fc013699afcbd1b68b}{%
+           family={Genet},
+           familyi={G\bibinitperiod},
+           given={Jessica\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9dd6d17f98463649185b618c8fa609e4}{%
+           family={Siemer},
+           familyi={S\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association (APA)}%
+      }
+      \strng{namehash}{6f3300cfa15b28b6af423e45bec7d6d0}
+      \strng{fullhash}{40efe4231f0a86589eb12629769347c5}
+      \strng{bibnamehash}{6f3300cfa15b28b6af423e45bec7d6d0}
+      \strng{authorbibnamehash}{6f3300cfa15b28b6af423e45bec7d6d0}
+      \strng{authornamehash}{6f3300cfa15b28b6af423e45bec7d6d0}
+      \strng{authorfullhash}{40efe4231f0a86589eb12629769347c5}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1528-3542}
+      \field{journaltitle}{Emotion}
+      \field{number}{2}
+      \field{title}{Individual differences in reappraisal effectiveness: The role of affective flexibility.}
+      \field{volume}{13}
+      \field{year}{2013}
+      \field{pages}{302\bibrangedash 313}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1037/a0029980
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1037/a0029980
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1037/a0029980
+      \endverb
+    \endentry
+    \entry{mathur_emotional_2015}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=ca8605aee9f300b9f1858edd6e6a31ac}{%
+           family={Mathur},
+           familyi={M\bibinitperiod},
+           given={Avantika},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2029bee2831f375c92ae0d707cb88538}{%
+           family={Vijayakumar},
+           familyi={V\bibinitperiod},
+           given={Suhas\bibnamedelima H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89c734cde9208789f6a55a2214e947b6}{%
+           family={Chakrabarti},
+           familyi={C\bibinitperiod},
+           given={Bhismadev},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=961e0ff93effc5ef3f2e113c963038d2}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Nandini\bibnamedelima C.},
+           giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ba34af31bf139bf727251eb12a3fdbfa}
+      \strng{fullhash}{f89760cfe8d9d7c653435c649b4deac0}
+      \strng{bibnamehash}{ba34af31bf139bf727251eb12a3fdbfa}
+      \strng{authorbibnamehash}{ba34af31bf139bf727251eb12a3fdbfa}
+      \strng{authornamehash}{ba34af31bf139bf727251eb12a3fdbfa}
+      \strng{authorfullhash}{f89760cfe8d9d7c653435c649b4deac0}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In Indian classical music, ragas constitute specific combinations of tonic intervals potentially capable of evoking distinct emotions. A raga composition is typically presented in two modes, namely, alaap and gat. Alaap is the note by note delineation of a raga bound by a slow tempo, but not bound by a rhythmic cycle. Gat on the other hand is rendered at a faster tempo and follows a rhythmic cycle. Our primary objective was to (1) discriminate the emotions experienced across alaap and gat of ragas, (2) investigate the association of tonic intervals, tempo and rhythmic regularity with emotional response. 122 participants rated their experienced emotion across alaap and gat of twelve ragas. Analysis of the emotional responses revealed that (1) ragas elicit distinct emotions across the two presentation modes, and (2) specific tonic intervals are robust predictors of emotional response. Specifically, our results showed that the ‘minor second’ is a direct predictor of negative valence. (3) Tonality determines the emotion experienced for a raga where as rhythmic regularity and tempo modulate levels of arousal. Our findings provide new insights into the emotional response to Indian ragas and the impact of tempo, rhythmic regularity and tonality on it.}
+      \field{day}{30}
+      \field{issn}{1664-1078}
+      \field{journaltitle}{Frontiers in Psychology}
+      \field{month}{4}
+      \field{note}{Publisher: Frontiers}
+      \field{shortjournal}{Front. Psychol.}
+      \field{shorttitle}{Emotional responses to Hindustani raga music}
+      \field{title}{Emotional responses to Hindustani raga music: the role of musical structure}
+      \field{volume}{6}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.3389/fpsyg.2015.00513
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/austin/snap/zotero-snap/common/Zotero/storage/MKEPY8DI/Mathur et al. - 2015 - Emotional responses to Hindustani raga music the role of musical structure.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.00513/full
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.00513/full
+      \endverb
+      \keyw{emotion,Music,ragas,rhythmic regularity,tempo,tonality}
+    \endentry
+    \entry{patriat_improved_2017}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c24b98664c695d7758c676edf67a914b}{%
+           family={Patriat},
+           familyi={P\bibinitperiod},
+           given={Rémi},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9fe47772ed3c9421039b2fe82ab84bab}{%
+           family={Reynolds},
+           familyi={R\bibinitperiod},
+           given={Richard\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16c9a33b2e9cfcc4bf16031f68e3c42e}{%
+           family={Birn},
+           familyi={B\bibinitperiod},
+           given={Rasmus\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{63ffcccdb267dc17e0cc1e4dd0f9800e}
+      \strng{fullhash}{5e22ce36c225d4b6c610c4af43bd8c95}
+      \strng{bibnamehash}{63ffcccdb267dc17e0cc1e4dd0f9800e}
+      \strng{authorbibnamehash}{63ffcccdb267dc17e0cc1e4dd0f9800e}
+      \strng{authornamehash}{63ffcccdb267dc17e0cc1e4dd0f9800e}
+      \strng{authorfullhash}{5e22ce36c225d4b6c610c4af43bd8c95}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Head motion is a significant source of noise in the estimation of functional connectivity from resting-state functional {MRI} (rs-{fMRI}). Current strategies to reduce this noise include image realignment, censoring time points corrupted by motion, and including motion realignment parameters and their derivatives as additional nuisance regressors in the general linear model. However, this nuisance regression approach assumes that the motion-induced signal changes are linearly related to the estimated realignment parameters, which is not always the case. In this study we develop an improved model of motion-related signal changes, where nuisance regressors are formed by first rotating and translating a single brain volume according to the estimated motion, re-registering the data, and then performing a principal components analysis ({PCA}) on the resultant time series of both moved and re-registered data. We show that these “Motion Simulated ({MotSim})” regressors account for significantly greater fraction of variance, result in higher temporal signal-to-noise, and lead to functional connectivity estimates that are less affected by motion compared to the most common current approach of using the realignment parameters and their derivatives as nuisance regressors. This improvement should lead to more accurate estimates of functional connectivity, particularly in populations where motion is prevalent, such as patients and young children.}
+      \field{day}{1}
+      \field{issn}{1053-8119}
+      \field{journaltitle}{{NeuroImage}}
+      \field{month}{1}
+      \field{shortjournal}{{NeuroImage}}
+      \field{title}{An improved model of motion-related signal changes in {fMRI}}
+      \field{volume}{144}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{74\bibrangedash 82}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.neuroimage.2016.08.051
+      \endverb
+      \verb{file}
+      \verb Accepted Version:/home/austin/snap/zotero-snap/common/Zotero/storage/E4GYWXQJ/Patriat et al. - 2017 - An improved model of motion-related signal changes in fMRI.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1053811916304360
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1053811916304360
+      \endverb
+      \keyw{Motion,Correction,Methods,Rs-{fMRI}}
+    \endentry
+    \entry{Pessoa2017}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b9091f9ac3929a82c651b02a265f166c}{%
+           family={Pessoa},
+           familyi={P\bibinitperiod},
+           given={Luiz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{b9091f9ac3929a82c651b02a265f166c}
+      \strng{fullhash}{b9091f9ac3929a82c651b02a265f166c}
+      \strng{bibnamehash}{b9091f9ac3929a82c651b02a265f166c}
+      \strng{authorbibnamehash}{b9091f9ac3929a82c651b02a265f166c}
+      \strng{authornamehash}{b9091f9ac3929a82c651b02a265f166c}
+      \strng{authorfullhash}{b9091f9ac3929a82c651b02a265f166c}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1364-6613}
+      \field{journaltitle}{Trends in Cognitive Sciences}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{A Network Model of the Emotional Brain}
+      \field{volume}{21}
+      \field{year}{2017}
+      \field{pages}{357\bibrangedash 371}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/j.tics.2017.03.002
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.tics.2017.03.002
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.tics.2017.03.002
+      \endverb
+    \endentry
+    \entry{power_methods_2014}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=e51e858ade62f302b3e6cb662130dcb5}{%
+           family={Power},
+           familyi={P\bibinitperiod},
+           given={Jonathan\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d12e54ff3abe2baa845e79c4af9a6dbe}{%
+           family={Mitra},
+           familyi={M\bibinitperiod},
+           given={Anish},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80b697a4d0ae93d6e6d8bbe07da385ca}{%
+           family={Laumann},
+           familyi={L\bibinitperiod},
+           given={Timothy\bibnamedelima O.},
+           giveni={T\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=051aa0d7e63c1b058d6b82c08085721a}{%
+           family={Snyder},
+           familyi={S\bibinitperiod},
+           given={Abraham\bibnamedelima Z.},
+           giveni={A\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8d2526e6f15b27b60be0d78f9a737fe}{%
+           family={Schlaggar},
+           familyi={S\bibinitperiod},
+           given={Bradley\bibnamedelima L.},
+           giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d4c10c2085851c66aeaec504ad662fca}{%
+           family={Petersen},
+           familyi={P\bibinitperiod},
+           given={Steven\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c96dc5d93a5aae46d9293c2f45be39d3}
+      \strng{fullhash}{c0bb0e9afb3531c47c40d0428e25b148}
+      \strng{bibnamehash}{c96dc5d93a5aae46d9293c2f45be39d3}
+      \strng{authorbibnamehash}{c96dc5d93a5aae46d9293c2f45be39d3}
+      \strng{authornamehash}{c96dc5d93a5aae46d9293c2f45be39d3}
+      \strng{authorfullhash}{c0bb0e9afb3531c47c40d0428e25b148}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Head motion systematically alters correlations in resting state functional connectivity {fMRI} ({RSFC}). In this report we examine impact of motion on signal intensity and {RSFC} correlations. We find that motion-induced signal changes (1) are often complex and variable waveforms, (2) are often shared across nearly all brain voxels, and (3) often persist more than 10s after motion ceases. These signal changes, both during and after motion, increase observed {RSFC} correlations in a distance-dependent manner. Motion-related signal changes are not removed by a variety of motion-based regressors, but are effectively reduced by global signal regression. We link several measures of data quality to motion, changes in signal intensity, and changes in {RSFC} correlations. We demonstrate that improvements in data quality measures during processing may represent cosmetic improvements rather than true correction of the data. We demonstrate a within-subject, censoring-based artifact removal strategy based on volume censoring that reduces group differences due to motion to chance levels. We note conditions under which group-level regressions do and do not correct motion-related effects.}
+      \field{day}{1}
+      \field{issn}{1095-9572}
+      \field{journaltitle}{{NeuroImage}}
+      \field{month}{1}
+      \field{shortjournal}{Neuroimage}
+      \field{title}{Methods to detect, characterize, and remove motion artifact in resting state {fMRI}}
+      \field{volume}{84}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{320\bibrangedash 341}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1016/j.neuroimage.2013.08.048
+      \endverb
+      \verb{file}
+      \verb Accepted Version:/home/austin/snap/zotero-snap/common/Zotero/storage/SSAT4P43/Power et al. - 2014 - Methods to detect, characterize, and remove motion artifact in resting state fMRI.pdf:application/pdf
+      \endverb
+      \keyw{Algorithms,Brain,Humans,Image Interpretation,Computer-Assisted,Motion,Reproducibility of Results,Adolescent,Adult,Artifact,Artifacts,Brain Mapping,Female,Functional connectivity,Head Movements,Image Enhancement,Magnetic Resonance Imaging,Male,Movement,{MRI},Pattern Recognition,Automated,Rest,Resting state,Sensitivity and Specificity,Subtraction Technique,Young Adult}
+    \endentry
+    \entry{Razavi2011}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=8beef5303cf9fbe058d04654973f3a54}{%
+           family={Razavi},
+           familyi={R\bibinitperiod},
+           given={Nadja},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c12f951d314140c87d4ceac01e713c5}{%
+           family={Horn},
+           familyi={H\bibinitperiod},
+           given={Helge},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b477eed26526aef3d2be753b73f98bd5}{%
+           family={Koschorke},
+           familyi={K\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d26d900de4bb1aab66f1de19b79472b2}{%
+           family={Hügli},
+           familyi={H\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d042db257850c8cd1bb72441c6eb493b}{%
+           family={Höfle},
+           familyi={H\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2ad285eb682bccdfe2685694db2188f}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d42f2d3850ff5a98ccc1d08e2e025ae0}{%
+           family={Strik},
+           familyi={S\bibinitperiod},
+           given={Werner},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d7e46ea8bd3dcfb22250f33a680c470a}{%
+           family={Walther},
+           familyi={W\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{851ad756bf68315f552c34202e948db1}
+      \strng{fullhash}{c14682e8647a1bc97932d79a974f474c}
+      \strng{bibnamehash}{851ad756bf68315f552c34202e948db1}
+      \strng{authorbibnamehash}{851ad756bf68315f552c34202e948db1}
+      \strng{authornamehash}{851ad756bf68315f552c34202e948db1}
+      \strng{authorfullhash}{c14682e8647a1bc97932d79a974f474c}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0165-1781}
+      \field{journaltitle}{Psychiatry Research}
+      \field{month}{12}
+      \field{number}{2–3}
+      \field{title}{Measuring motor activity in major depression: The association between the Hamilton Depression Rating Scale and actigraphy}
+      \field{volume}{190}
+      \field{year}{2011}
+      \field{pages}{212\bibrangedash 216}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/j.psychres.2011.05.028
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.psychres.2011.05.028
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.psychres.2011.05.028
+      \endverb
+    \endentry
+    \entry{russell_circumplex_1980}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ee6848fb2fac892f7b0fe7674e81f502}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={James\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ee6848fb2fac892f7b0fe7674e81f502}
+      \strng{fullhash}{ee6848fb2fac892f7b0fe7674e81f502}
+      \strng{bibnamehash}{ee6848fb2fac892f7b0fe7674e81f502}
+      \strng{authorbibnamehash}{ee6848fb2fac892f7b0fe7674e81f502}
+      \strng{authornamehash}{ee6848fb2fac892f7b0fe7674e81f502}
+      \strng{authorfullhash}{ee6848fb2fac892f7b0fe7674e81f502}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1939-1315, 0022-3514}
+      \field{journaltitle}{Journal of Personality and Social Psychology}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{6}
+      \field{shortjournal}{Journal of Personality and Social Psychology}
+      \field{title}{A circumplex model of affect.}
+      \field{volume}{39}
+      \field{year}{1980}
+      \field{dateera}{ce}
+      \field{pages}{1161\bibrangedash 1178}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1037/h0077714
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.apa.org/doi/10.1037/h0077714
+      \endverb
+      \verb{url}
+      \verb https://doi.apa.org/doi/10.1037/h0077714
+      \endverb
+    \endentry
+    \entry{sander_systems_2005}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5895508216f1904304ec1f4f85f1911d}{%
+           family={Sander},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e02c0b21c8cfbd2a1f47df958f7d7e39}{%
+           family={Grandjean},
+           familyi={G\bibinitperiod},
+           given={Didier},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d58a2db7c63b1b03e551e000c83c2a30}{%
+           family={Scherer},
+           familyi={S\bibinitperiod},
+           given={Klaus\bibnamedelima R.},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{360c65c018ebc1d76d76103294068088}
+      \strng{fullhash}{eb5ad33e5b3c6c7d8006695677e2137d}
+      \strng{bibnamehash}{360c65c018ebc1d76d76103294068088}
+      \strng{authorbibnamehash}{360c65c018ebc1d76d76103294068088}
+      \strng{authornamehash}{360c65c018ebc1d76d76103294068088}
+      \strng{authorfullhash}{eb5ad33e5b3c6c7d8006695677e2137d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{08936080}
+      \field{journaltitle}{Neural Networks}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{4}
+      \field{shortjournal}{Neural Networks}
+      \field{title}{A systems approach to appraisal mechanisms in emotion}
+      \field{volume}{18}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{pages}{317\bibrangedash 352}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1016/j.neunet.2005.03.001
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0893608005000341
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0893608005000341
+      \endverb
+    \endentry
+    \entry{satterthwaite_improved_2013}{article}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=31908c78eb667d22e4929589c376a1f0}{%
+           family={Satterthwaite},
+           familyi={S\bibinitperiod},
+           given={Theodore\bibnamedelima D.},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb19bca13b069ebcda9476ec04274022}{%
+           family={Elliott},
+           familyi={E\bibinitperiod},
+           given={Mark\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=072deca7eecd81b96bbff6257a43a634}{%
+           family={Gerraty},
+           familyi={G\bibinitperiod},
+           given={Raphael\bibnamedelima T.},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da8fcacf488ee1b3a6db1b626c8d94a9}{%
+           family={Ruparel},
+           familyi={R\bibinitperiod},
+           given={Kosha},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ffabcf555ad4556e1f07124043de8ab}{%
+           family={Loughead},
+           familyi={L\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e37d10d89202d960f3528fecb229c5d8}{%
+           family={Calkins},
+           familyi={C\bibinitperiod},
+           given={Monica\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=68306f13a064ab598900c6672b5815c2}{%
+           family={Eickhoff},
+           familyi={E\bibinitperiod},
+           given={Simon\bibnamedelima B.},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4e073d2ed450f421c8f7d4400ba5b29}{%
+           family={Hakonarson},
+           familyi={H\bibinitperiod},
+           given={Hakon},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f93af6770e3dbae6715abc48b37f63a}{%
+           family={Gur},
+           familyi={G\bibinitperiod},
+           given={Ruben\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37386d0e09401975f89513d66c436e03}{%
+           family={Gur},
+           familyi={G\bibinitperiod},
+           given={Raquel\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54c45732c354c555788ec640e9504aef}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Daniel\bibnamedelima H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f266bdf144c14c26f179b4c31785b209}
+      \strng{fullhash}{3b118a0dba424eee171b41021763e508}
+      \strng{bibnamehash}{f266bdf144c14c26f179b4c31785b209}
+      \strng{authorbibnamehash}{f266bdf144c14c26f179b4c31785b209}
+      \strng{authornamehash}{f266bdf144c14c26f179b4c31785b209}
+      \strng{authorfullhash}{3b118a0dba424eee171b41021763e508}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Several recent reports in large, independent samples have demonstrated the influence of motion artifact on resting-state functional connectivity {MRI} (rsfc-{MRI}). Standard rsfc-{MRI} preprocessing typically includes regression of confounding signals and band-pass filtering. However, substantial heterogeneity exists in how these techniques are implemented across studies, and no prior study has examined the effect of differing approaches for the control of motion-induced artifacts. To better understand how in-scanner head motion affects rsfc-{MRI} data, we describe the spatial, temporal, and spectral characteristics of motion artifacts in a sample of 348 adolescents. Analyses utilize a novel approach for describing head motion on a voxelwise basis. Next, we systematically evaluate the efficacy of a range of confound regression and filtering techniques for the control of motion-induced artifacts. Results reveal that the effectiveness of preprocessing procedures on the control of motion is heterogeneous, and that improved preprocessing provides a substantial benefit beyond typical procedures. These results demonstrate that the effect of motion on rsfc-{MRI} can be substantially attenuated through improved preprocessing procedures, but not completely removed.}
+      \field{day}{1}
+      \field{issn}{1053-8119}
+      \field{journaltitle}{{NeuroImage}}
+      \field{month}{1}
+      \field{shortjournal}{{NeuroImage}}
+      \field{title}{An improved framework for confound regression and filtering for control of motion artifact in the preprocessing of resting-state functional connectivity data}
+      \field{volume}{64}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{240\bibrangedash 256}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/j.neuroimage.2012.08.052
+      \endverb
+      \verb{file}
+      \verb Accepted Version:/home/austin/snap/zotero-snap/common/Zotero/storage/M69KRIGG/Satterthwaite et al. - 2013 - An improved framework for confound regression and filtering for control of motion artifact in the pr.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1053811912008609
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1053811912008609
+      \endverb
+      \keyw{Motion,Artifact,Adolescence,Connectivity,Connectome,Development,{fMRI},Network,Resting-state}
+    \endentry
+    \entry{spearman_proof_1904}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fe74eb0f9a2d4cd74c2a1f1dcf7caf85}{%
+           family={Spearman},
+           familyi={S\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fe74eb0f9a2d4cd74c2a1f1dcf7caf85}
+      \strng{fullhash}{fe74eb0f9a2d4cd74c2a1f1dcf7caf85}
+      \strng{bibnamehash}{fe74eb0f9a2d4cd74c2a1f1dcf7caf85}
+      \strng{authorbibnamehash}{fe74eb0f9a2d4cd74c2a1f1dcf7caf85}
+      \strng{authornamehash}{fe74eb0f9a2d4cd74c2a1f1dcf7caf85}
+      \strng{authorfullhash}{fe74eb0f9a2d4cd74c2a1f1dcf7caf85}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00029556}
+      \field{journaltitle}{The American Journal of Psychology}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{The American Journal of Psychology}
+      \field{title}{The Proof and Measurement of Association between Two Things}
+      \field{volume}{15}
+      \field{year}{1904}
+      \field{dateera}{ce}
+      \field{pages}{72}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/1412159
+      \endverb
+      \verb{file}
+      \verb Submitted Version:/home/austin/snap/zotero-snap/common/Zotero/storage/2QJW846P/Spearman - 1904 - The Proof and Measurement of Association between Two Things.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/1412159?origin=crossref
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/1412159?origin=crossref
+      \endverb
+    \endentry
+    \entry{InterAffectTravel}{unpublished}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ce3e60914967cb830e93482f93ea1b44}{%
+           family={Tripathi},
+           familyi={T\bibinitperiod},
+           given={Shashwati},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f01e7399e0b9c8a99548d0261f7bb5f2}{%
+           family={Varughese},
+           familyi={V\bibinitperiod},
+           given={Austin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50940ae2a3a72fee48194729cf75f37a}{%
+           family={Banerjee},
+           familyi={B\bibinitperiod},
+           given={Arpan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d45f71d74f52655d4bf917e19f0e2a15}
+      \strng{fullhash}{41576f2b3c15dbc2fedccdd27d2f7dae}
+      \strng{bibnamehash}{d45f71d74f52655d4bf917e19f0e2a15}
+      \strng{authorbibnamehash}{d45f71d74f52655d4bf917e19f0e2a15}
+      \strng{authornamehash}{d45f71d74f52655d4bf917e19f0e2a15}
+      \strng{authorfullhash}{41576f2b3c15dbc2fedccdd27d2f7dae}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{In preparation}
+      \field{title}{Network features reflect the effect of neuropsychiatric traits in emotion regulation}
+      \field{year}{2025}
+    \endentry
+    \entry{tustison_n4itk_2010}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=684aae3aed26099ede72fb89094abbc5}{%
+           family={Tustison},
+           familyi={T\bibinitperiod},
+           given={Nicholas\bibnamedelima J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f9420dc1611253faaa53552ffa45ffb4}{%
+           family={Avants},
+           familyi={A\bibinitperiod},
+           given={Brian\bibnamedelima B.},
+           giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e254743e9485b2e6e571dcd9d1589c10}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={Philip\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf6407fb52885e5c209a01f7c19ac29f}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Yuanjie},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=be17e1d992e9ee749ca52025fd387203}{%
+           family={Egan},
+           familyi={E\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0865af6e0989cf8a5768a668f097b23}{%
+           family={Yushkevich},
+           familyi={Y\bibinitperiod},
+           given={Paul\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dfc9247080478babae33740cfb0199db}{%
+           family={Gee},
+           familyi={G\bibinitperiod},
+           given={James\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4ad9b4f0d6c7279c187178d36a6c66d9}
+      \strng{fullhash}{3eabf53ee8f861bfc75d23f46b4a4bdd}
+      \strng{bibnamehash}{4ad9b4f0d6c7279c187178d36a6c66d9}
+      \strng{authorbibnamehash}{4ad9b4f0d6c7279c187178d36a6c66d9}
+      \strng{authornamehash}{4ad9b4f0d6c7279c187178d36a6c66d9}
+      \strng{authorfullhash}{3eabf53ee8f861bfc75d23f46b4a4bdd}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{A variant of the popular nonparametric nonuniform intensity normalization (N3) algorithm is proposed for bias field correction. Given the superb performance of N3 and its public availability, it has been the subject of several evaluation studies. These studies have demonstrated the importance of certain parameters associated with the B-spline least-squares fitting. We propose the substitution of a recently developed fast and robust B-spline approximation routine and a modified hierarchical optimization scheme for improved bias field correction over the original N3 algorithm. Similar to the N3 algorithm, we also make the source code, testing, and technical documentation of our contribution, which we denote as “N4ITK,” available to the public through the Insight Toolkit of the National Institutes of Health. Performance assessment is demonstrated using simulated data from the publicly available Brainweb database, hyperpolarized {\textasciicircum}3{\textbackslash}rm He lung image data, and 9.4T postmortem hippocampus data.}
+      \field{issn}{1558-254X}
+      \field{journaltitle}{{IEEE} Transactions on Medical Imaging}
+      \field{month}{6}
+      \field{number}{6}
+      \field{shorttitle}{N4ITK}
+      \field{title}{N4ITK: Improved N3 Bias Correction}
+      \field{volume}{29}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{pages}{1310\bibrangedash 1320}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/TMI.2010.2046908
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/austin/snap/zotero-snap/common/Zotero/storage/U2NNZ57C/Tustison et al. - 2010 - N4ITK Improved N3 Bias Correction.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/5445030
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/5445030
+      \endverb
+      \keyw{Approximation algorithms,Availability,B-spline approximation,bias field,Brain modeling,Documentation,Image databases,inhomogeneity,Lungs,N3,Robustness,Spline,Testing}
+    \endentry
+    \entry{Uddin2021}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=821d7dd0b7d20a054347dcaceec56c76}{%
+           family={Uddin},
+           familyi={U\bibinitperiod},
+           given={Lucina\bibnamedelima Q.},
+           giveni={L\bibinitperiod\bibinitdelim Q\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{821d7dd0b7d20a054347dcaceec56c76}
+      \strng{fullhash}{821d7dd0b7d20a054347dcaceec56c76}
+      \strng{bibnamehash}{821d7dd0b7d20a054347dcaceec56c76}
+      \strng{authorbibnamehash}{821d7dd0b7d20a054347dcaceec56c76}
+      \strng{authornamehash}{821d7dd0b7d20a054347dcaceec56c76}
+      \strng{authorfullhash}{821d7dd0b7d20a054347dcaceec56c76}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1471-0048}
+      \field{journaltitle}{Nature Reviews Neuroscience}
+      \field{month}{2}
+      \field{number}{3}
+      \field{title}{Cognitive and behavioural flexibility: neural mechanisms and clinical considerations}
+      \field{volume}{22}
+      \field{year}{2021}
+      \field{pages}{167\bibrangedash 179}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1038/s41583-021-00428-w
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1038/s41583-021-00428-w
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/s41583-021-00428-w
+      \endverb
+    \endentry
+    \entry{2020SciPy-NMeth}{article}{}
+      \name{author}{35}{}{%
+        {{un=0,uniquepart=base,hash=18703a2bb6a62484483c193a212da2f8}{%
+           family={Virtanen},
+           familyi={V\bibinitperiod},
+           given={Pauli},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=646fbfe08374cc41c2f9bd971d8c4725}{%
+           family={Gommers},
+           familyi={G\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d500f4849030f34359cdb3e1513acf83}{%
+           family={Oliphant},
+           familyi={O\bibinitperiod},
+           given={Travis\bibnamedelima E.},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=35bb9c71f55048509a3e9018c349ed73}{%
+           family={Haberland},
+           familyi={H\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbb0c40f5d70be8ce47ce9daafdf5749}{%
+           family={Reddy},
+           familyi={R\bibinitperiod},
+           given={Tyler},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9fd9ed8466bbb96364ae008f2a665e6e}{%
+           family={Cournapeau},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=09a667aa6a26526bfcccb2676a494e55}{%
+           family={Burovski},
+           familyi={B\bibinitperiod},
+           given={Evgeni},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d6efaaa3d9682e20787eb06ff70a3d7}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={Pearu},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c7e4c94b846fa41e2fc0a88e0dc656d}{%
+           family={Weckesser},
+           familyi={W\bibinitperiod},
+           given={Warren},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7447cb057596bc2645d3980bb04f5c78}{%
+           family={Bright},
+           familyi={B\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b5d87f5a394ee92a6edb4c1de058cab}{%
+           family={{van der Walt}},
+           familyi={v\bibinitperiod},
+           given={Stéfan\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=626cc151613864abeb653c0d8172d98c}{%
+           family={Brett},
+           familyi={B\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57849e8550281b202bd611bf6f11e14b}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b053969d2c6a9ec8689980fb6463cd56}{%
+           family={Millman},
+           familyi={M\bibinitperiod},
+           given={K.\bibnamedelimi Jarrod},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbaf80580622bd40577f4a6d38021c0a}{%
+           family={Mayorov},
+           familyi={M\bibinitperiod},
+           given={Nikolay},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7bcf847eaccba039f7a4523540673aea}{%
+           family={Nelson},
+           familyi={N\bibinitperiod},
+           given={Andrew\bibnamedelimb R.\bibnamedelimi J.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b3d26f886661aa723985bcfd835ba18}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ad1d38817acd2f00cb7f324ec7d37ea}{%
+           family={Kern},
+           familyi={K\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d336f110675c46226ece1db501ce712}{%
+           family={Larson},
+           familyi={L\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65b1934a87acb0abe09c469aaf11c326}{%
+           family={Carey},
+           familyi={C\bibinitperiod},
+           given={C\bibnamedelima J},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9989e8a18827e34b15112d671f52bd35}{%
+           family={Polat},
+           familyi={P\bibinitperiod},
+           given={İlhan},
+           giveni={İ\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8b88d61c79de60e6e1b5d44e03f5dec}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf4be16325cb4f641345ca394443fd18}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Eric\bibnamedelima W.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0fd9a0e34f1b2adda41357c948d14986}{%
+           family={{VanderPlas}},
+           familyi={V\bibinitperiod},
+           given={Jake},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6a95a8ced3b86b4e7e60a74bc6ebf5a}{%
+           family={Laxalde},
+           familyi={L\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85242652d69220e83cf71ceb8d90a8cb}{%
+           family={Perktold},
+           familyi={P\bibinitperiod},
+           given={Josef},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5bca159e697db439e23b8947dfa4b614}{%
+           family={Cimrman},
+           familyi={C\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70b659f5067a8a2efbee66f770681598}{%
+           family={Henriksen},
+           familyi={H\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa5163c76600eb11a4d07a28f0701cb0}{%
+           family={Quintero},
+           familyi={Q\bibinitperiod},
+           given={E.\bibnamedelimi A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db2b4761cc46be347b418e68660c9554}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Charles\bibnamedelima R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d86aea5ad1f2b4e27f2f014c71712c2}{%
+           family={Archibald},
+           familyi={A\bibinitperiod},
+           given={Anne\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3876f7c3dbbb1a17823dcd135d07cfc6}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Antônio\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bab4e5caee2d67831e464ce575022b37}{%
+           family={Pedregosa},
+           familyi={P\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8928c27c900ec0b05492cbba126c5196}{%
+           family={{van Mulbregt}},
+           familyi={v\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa8bf7a30651c7bc3d20ff02fc843dd9}{%
+           family={{SciPy 1.0 Contributors}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f252038edd7f112d75da3bf0c1edecbc}
+      \strng{fullhash}{371a3f5cdbab4f8c68cab2e17d157950}
+      \strng{bibnamehash}{f252038edd7f112d75da3bf0c1edecbc}
+      \strng{authorbibnamehash}{f252038edd7f112d75da3bf0c1edecbc}
+      \strng{authornamehash}{f252038edd7f112d75da3bf0c1edecbc}
+      \strng{authorfullhash}{371a3f5cdbab4f8c68cab2e17d157950}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Methods}
+      \field{title}{{{SciPy} 1.0: Fundamental Algorithms for Scientific Computing in Python}}
+      \field{volume}{17}
+      \field{year}{2020}
+      \field{pages}{261\bibrangedash 272}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1038/s41592-019-0686-2
+      \endverb
+    \endentry
+    \entry{vuilleumier_effects_2001}{article}{}
+      \name{author}{4}{ul=2}{%
+        {{un=0,uniquepart=base,hash=9c753b05fe52a16baf66e6c535617cba}{%
+           family={Vuilleumier},
+           familyi={V\bibinitperiod},
+           given={Patrik},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25c68abd0f6d8fae179cc588d1e4fe8b}{%
+           family={Armony},
+           familyi={A\bibinitperiod},
+           given={Jorge\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=310322781eb6ca40e838a556a4f00407}{%
+           family={Driver},
+           familyi={D\bibinitperiod},
+           given={Jon},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b4a4fc5ea30c01bb92ff26770bdb0fe9}{%
+           family={Dolan},
+           familyi={D\bibinitperiod},
+           given={Raymond\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{92b0e610eb12d2d5245e5d54c622c4e9}
+      \strng{fullhash}{1b3c297a1bdbfa4e2d8719eda33bbe69}
+      \strng{bibnamehash}{92b0e610eb12d2d5245e5d54c622c4e9}
+      \strng{authorbibnamehash}{92b0e610eb12d2d5245e5d54c622c4e9}
+      \strng{authornamehash}{92b0e610eb12d2d5245e5d54c622c4e9}
+      \strng{authorfullhash}{1b3c297a1bdbfa4e2d8719eda33bbe69}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We used event-related {fMRI} to assess whether brain responses to fearful versus neutral faces are modulated by spatial attention. Subjects performed a demanding matching task for pairs of stimuli at prespecified locations, in the presence of task-irrelevant stimuli at other locations. Faces or houses unpredictably appeared at the relevant or irrelevant locations, while the faces had either fearful or neutral expressions. Activation of fusiform gyri by faces was strongly affected by attentional condition, but the left amygdala response to fearful faces was not. Right fusiform activity was greater for fearful than neutral faces, independently of the attention effect on this region. These results reveal differential influences on face processing from attention and emotion, with the amygdala response to threat-related expressions unaffected by a manipulation of attention that strongly modulates the fusiform response to faces.}
+      \field{day}{1}
+      \field{issn}{0896-6273}
+      \field{journaltitle}{Neuron}
+      \field{month}{5}
+      \field{number}{3}
+      \field{shortjournal}{Neuron}
+      \field{shorttitle}{Effects of Attention and Emotion on Face Processing in the Human Brain}
+      \field{title}{Effects of Attention and Emotion on Face Processing in the Human Brain: An Event-Related {fMRI} Study}
+      \field{volume}{30}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{pages}{829\bibrangedash 841}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/S0896-6273(01)00328-2
+      \endverb
+      \verb{file}
+      \verb Full Text:/home/austin/snap/zotero-snap/common/Zotero/storage/5KYTVDYL/Vuilleumier et al. - 2001 - Effects of Attention and Emotion on Face Processing in the Human Brain An Event-Related fMRI Study.pdf:application/pdf;ScienceDirect Snapshot:/home/austin/snap/zotero-snap/common/Zotero/storage/HRMQ7HWA/S0896627301003282.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0896627301003282
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0896627301003282
+      \endverb
+    \endentry
+    \entry{vuilleumier_distant_2004}{article}{}
+      \name{author}{5}{ul=2}{%
+        {{un=0,uniquepart=base,hash=9c753b05fe52a16baf66e6c535617cba}{%
+           family={Vuilleumier},
+           familyi={V\bibinitperiod},
+           given={Patrik},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60cfdb629dcdf0a025356afdfe931450}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={Mark\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25c68abd0f6d8fae179cc588d1e4fe8b}{%
+           family={Armony},
+           familyi={A\bibinitperiod},
+           given={Jorge\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=310322781eb6ca40e838a556a4f00407}{%
+           family={Driver},
+           familyi={D\bibinitperiod},
+           given={Jon},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b4a4fc5ea30c01bb92ff26770bdb0fe9}{%
+           family={Dolan},
+           familyi={D\bibinitperiod},
+           given={Raymond\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5e8cf3653aa225b17a867af71f6d01cc}
+      \strng{fullhash}{154517cf4fdb0e5eb830aa12dfb3610a}
+      \strng{bibnamehash}{5e8cf3653aa225b17a867af71f6d01cc}
+      \strng{authorbibnamehash}{5e8cf3653aa225b17a867af71f6d01cc}
+      \strng{authornamehash}{5e8cf3653aa225b17a867af71f6d01cc}
+      \strng{authorfullhash}{154517cf4fdb0e5eb830aa12dfb3610a}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Emotional visual stimuli evoke enhanced responses in the visual cortex. To test whether this reflects modulatory influences from the amygdala on sensory processing, we used event-related functional magnetic resonance imaging ({fMRI}) in human patients with medial temporal lobe sclerosis. Twenty-six patients with lesions in the amygdala, the hippocampus or both, plus 13 matched healthy controls, were shown pictures of fearful or neutral faces in task-releant or task-irrelevant positions on the display. All subjects showed increased fusiform cortex activation when the faces were in task-relevant positions. Both healthy individuals and those with hippocampal damage showed increased activation in the fusiform and occipital cortex when they were shown fearful faces, but this was not the case for individuals with damage to the amygdala, even though visual areas were structurally intact. The distant influence of the amygdala was also evidenced by the parametric relationship between amygdala damage and the level of emotional activation in the fusiform cortex. Our data show that combining the {fMRI} and lesion approaches can help reveal the source of functional modulatory influences between distant but interconnected brain regions.}
+      \field{issn}{1546-1726}
+      \field{journaltitle}{Nature Neuroscience}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{note}{Publisher: Nature Publishing Group}
+      \field{number}{11}
+      \field{shortjournal}{Nat Neurosci}
+      \field{title}{Distant influences of amygdala lesion on visual cortical activation during emotional face processing}
+      \field{volume}{7}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{pages}{1271\bibrangedash 1278}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1038/nn1341
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/austin/snap/zotero-snap/common/Zotero/storage/S37JXTQ5/Vuilleumier et al. - 2004 - Distant influences of amygdala lesion on visual cortical activation during emotional face processing.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/nn1341
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/nn1341
+      \endverb
+      \keyw{Animal Genetics and Genomics,Behavioral Sciences,Biological Techniques,Biomedicine,general,Neurobiology,Neurosciences}
+    \endentry
+    \entry{vuilleumier_emotional_2001}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9c753b05fe52a16baf66e6c535617cba}{%
+           family={Vuilleumier},
+           familyi={V\bibinitperiod},
+           given={Patrik},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b79b159ceca8962721b25f4e346a0f2}{%
+           family={Schwartz},
+           familyi={S\bibinitperiod},
+           given={Sophie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fa7cd1ced1985d9ebfe44c4dd8f7e373}
+      \strng{fullhash}{fa7cd1ced1985d9ebfe44c4dd8f7e373}
+      \strng{bibnamehash}{fa7cd1ced1985d9ebfe44c4dd8f7e373}
+      \strng{authorbibnamehash}{fa7cd1ced1985d9ebfe44c4dd8f7e373}
+      \strng{authornamehash}{fa7cd1ced1985d9ebfe44c4dd8f7e373}
+      \strng{authorfullhash}{fa7cd1ced1985d9ebfe44c4dd8f7e373}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Objective: To determine whether the emotional significance of stimuli can influence spatial attention.Background: Motivational and emotional factors may affect attention toward stimuli. However, this has never been examined in brain-damaged patients who present with unilateral inattention due to left spatial neglect.Methods: The authors studied three patients with chronic left neglect and visual extinction after right parietal stroke. Shapes or faces with neutral, happy, or angry expressions were briefly presented in the right, left, or both visual fields. On unilateral trials, the patients detected all stimuli equally on both sides. On bilateral trials, they extinguished faces in the contralesional field much less often than shapes, and faces with happy or angry facial expressions much less than faces with a neutral expression.Conclusion: Facial features and emotional expressions can be analyzed despite lying on the unattended side, and may influence the spatial distribution of attention. These findings support the view that attention is controlled by neural mechanisms involving not only frontoparietal areas but also limbic components in cingulate cortex and amygdala, which may interact with ventral visual areas in the temporal lobe to detect affective value and prioritize attention to salient stimuli.}
+      \field{day}{23}
+      \field{journaltitle}{Neurology}
+      \field{month}{1}
+      \field{note}{Publisher: Wolters Kluwer}
+      \field{number}{2}
+      \field{title}{Emotional facial expressions capture attention}
+      \field{volume}{56}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{pages}{153\bibrangedash 158}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1212/WNL.56.2.153
+      \endverb
+      \verb{urlraw}
+      \verb https://www.neurology.org/doi/full/10.1212/wnl.56.2.153
+      \endverb
+      \verb{url}
+      \verb https://www.neurology.org/doi/full/10.1212/wnl.56.2.153
+      \endverb
+    \endentry
+    \entry{zhang_segmentation_2001}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1f26f664835ac6c347db22001b657f1a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75d9f30259852469ea78295bd7949f1e}{%
+           family={Brady},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c528ec769079cc43320d94eb0c26a74}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3c1307f04a2326d8574987ac3a9ef4db}
+      \strng{fullhash}{c8dfb90bc109d403da784acbd65f4f78}
+      \strng{bibnamehash}{3c1307f04a2326d8574987ac3a9ef4db}
+      \strng{authorbibnamehash}{3c1307f04a2326d8574987ac3a9ef4db}
+      \strng{authornamehash}{3c1307f04a2326d8574987ac3a9ef4db}
+      \strng{authorfullhash}{c8dfb90bc109d403da784acbd65f4f78}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The finite mixture ({FM}) model is the most commonly used model for statistical segmentation of brain magnetic resonance ({MR}) images because of its simple mathematical form and the piecewise constant nature of ideal brain {MR} images. However, being a histogram-based model, the {FM} has an intrinsic limitation-no spatial information is taken into account. This causes the {FM} model to work only on well-defined images with low levels of noise; unfortunately, this is often not the the case due to artifacts such as partial volume effect and bias field distortion. Under these conditions, {FM} model-based methods produce unreliable results. Here, the authors propose a novel hidden Markov random field ({HMRF}) model, which is a stochastic process generated by a {MRF} whose state sequence cannot be observed directly but which can be indirectly estimated through observations. Mathematically, it can be shown that the {FM} model is a degenerate version of the {HMRF} model. The advantage of the {HMRF} model derives from the way in which the spatial information is encoded through the mutual influences of neighboring sites. Although {MRF} modeling has been employed in {MR} image segmentation by other researchers, most reported methods are limited to using {MRF} as a general prior in an {FM} model-based approach. To fit the {HMRF} model, an {EM} algorithm is used. The authors show that by incorporating both the {HMRF} model and the {EM} algorithm into a {HMRF}-{EM} framework, an accurate and robust segmentation can be achieved. More importantly, the {HMRF}-{EM} framework can easily be combined with other techniques. As an example, the authors show how the bias field correction algorithm of Guillemaud and Brady (1997) can be incorporated into this framework to achieve a three-dimensional fully automated approach for brain {MR} image segmentation.}
+      \field{issn}{1558-254X}
+      \field{journaltitle}{{IEEE} Transactions on Medical Imaging}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Segmentation of brain {MR} images through a hidden Markov random field model and the expectation-maximization algorithm}
+      \field{volume}{20}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{pages}{45\bibrangedash 57}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/42.906424
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/austin/snap/zotero-snap/common/Zotero/storage/9MAZ7JZH/Zhang et al. - 2001 - Segmentation of brain MR images through a hidden Markov random field model and the expectation-maxim.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/906424
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/906424
+      \endverb
+      \keyw{Brain modeling,Robustness,Expectation-maximization algorithms,Hidden Markov models,Image segmentation,Magnetic resonance,Mathematical model,Noise level,State estimation,Stochastic processes}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -41,7 +41,7 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
       <file>AustinV_Thesis.bcf</file>
@@ -51,22 +51,17 @@
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
+      <file>apa.dbx</file>
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
-      <file>ext-biblatex-aux.def</file>
       <file>standard.bbx</file>
-      <file>ext-standard.bbx</file>
       <file>numeric.bbx</file>
-      <file>numeric-comp.bbx</file>
-      <file>ext-numeric-comp.bbx</file>
-      <file>numeric-comp.cbx</file>
-      <file>ext-numeric-comp.cbx</file>
+      <file>authoryear.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
-      <file>american.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="1">
+  <external package="biblatex" priority="5" active="0">
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
@@ -85,7 +80,7 @@
       <file>AustinV_Thesis.bcf</file>
     </requires>
     <requires type="editable">
-      <file>references.bib</file>
+      <file>thesis-references.bib</file>
     </requires>
   </external>
 </requests>

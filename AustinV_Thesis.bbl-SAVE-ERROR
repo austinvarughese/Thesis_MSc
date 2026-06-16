@@ -1,0 +1,1406 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{avants_symmetric_2008}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=3dbb66ddcfbcba96055ef6ffe04671c2}{%
+           family={Avants},
+           familyi={A\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7703ed6c8d23c3b332d98fb75c400af8}{%
+           family={Epstein},
+           familyi={E\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=756e18e0e861fc84a3e5501cf87d9426}{%
+           family={Grossman},
+           familyi={G\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a92aaf2df68faaec9478d8f36b7066ed}{%
+           family={Gee},
+           familyi={G\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0f3405aaa2157df41de9c0194406c5ce}
+      \strng{fullhash}{809db078d40117f66039c8c397d59e45}
+      \strng{bibnamehash}{0f3405aaa2157df41de9c0194406c5ce}
+      \strng{authorbibnamehash}{0f3405aaa2157df41de9c0194406c5ce}
+      \strng{authornamehash}{0f3405aaa2157df41de9c0194406c5ce}
+      \strng{authorfullhash}{809db078d40117f66039c8c397d59e45}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{13618415}
+      \field{journaltitle}{Medical Image Analysis}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{1}
+      \field{shortjournal}{Medical Image Analysis}
+      \field{shorttitle}{Symmetric diffeomorphic image registration with cross-correlation}
+      \field{title}{Symmetric diffeomorphic image registration with cross-correlation: Evaluating automated labeling of elderly and neurodegenerative brain}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{12}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{26\bibrangedash 41}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.media.2007.06.004
+      \endverb
+      \verb{file}
+      \verb Accepted Version:/home/austin/snap/zotero-snap/common/Zotero/storage/9ZSNL9E4/Avants et al. - 2008 - Symmetric diffeomorphic image registration with cross-correlation Evaluating automated labeling of.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1361841507000606
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1361841507000606
+      \endverb
+    \endentry
+    \entry{behzadi_component_2007}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=0cabf5b9c4350a18f4e8756663151bd1}{%
+           family={Behzadi},
+           familyi={B\bibinitperiod},
+           given={Yashar},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=303e6b4920be4950a11107f073039f3c}{%
+           family={Restom},
+           familyi={R\bibinitperiod},
+           given={Khaled},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb48b8dc0aa41e9a6e42ae18d5bab222}{%
+           family={Liau},
+           familyi={L\bibinitperiod},
+           given={Joy},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=98c2a9dda201a0fc3541778e58e0f505}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Thomas\bibnamedelima T.},
+           giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1018a27a966aab6d7a7735485eb38ef6}
+      \strng{fullhash}{da1a37c17d08e13c336ecbc96db60f81}
+      \strng{bibnamehash}{1018a27a966aab6d7a7735485eb38ef6}
+      \strng{authorbibnamehash}{1018a27a966aab6d7a7735485eb38ef6}
+      \strng{authornamehash}{1018a27a966aab6d7a7735485eb38ef6}
+      \strng{authorfullhash}{da1a37c17d08e13c336ecbc96db60f81}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A component based method ({CompCor}) for the reduction of noise in both blood oxygenation level-dependent ({BOLD}) and perfusion-based functional magnetic resonance imaging ({fMRI}) data is presented. In the proposed method, significant principal components are derived from noise regions-of-interest ({ROI}) in which the time series data are unlikely to be modulated by neural activity. These components are then included as nuisance parameters within general linear models for {BOLD} and perfusion-based {fMRI} time series data. Two approaches for the determination of the noise {ROI} are considered. The first method uses high-resolution anatomical data to define a region of interest composed primarily of white matter and cerebrospinal fluid, while the second method defines a region based upon the temporal standard deviation of the time series data. With the application of {CompCor}, the temporal standard deviation of resting-state perfusion and {BOLD} data in gray matter regions was significantly reduced as compared to either no correction or the application of a previously described retrospective image based correction scheme ({RETROICOR}). For both functional perfusion and {BOLD} data, the application of {CompCor} significantly increased the number of activated voxels as compared to no correction. In addition, for functional {BOLD} data, there were significantly more activated voxels detected with {CompCor} as compared to {RETROICOR}. In comparison to {RETROICOR}, {CompCor} has the advantage of not requiring external monitoring of physiological fluctuations.}
+      \field{day}{1}
+      \field{issn}{1053-8119}
+      \field{journaltitle}{{NeuroImage}}
+      \field{month}{8}
+      \field{number}{1}
+      \field{shortjournal}{{NeuroImage}}
+      \field{title}{A component based noise correction method ({CompCor}) for {BOLD} and perfusion based {fMRI}}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{37}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{90\bibrangedash 101}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.neuroimage.2007.04.042
+      \endverb
+      \verb{file}
+      \verb Full Text:/home/austin/snap/zotero-snap/common/Zotero/storage/IX6GTRPE/Behzadi et al. - 2007 - A component based noise correction method (CompCor) for BOLD and perfusion based fMRI.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1053811907003837
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1053811907003837
+      \endverb
+    \endentry
+    \entry{ciric_templateflow_2022}{article}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=65fe66338785b06da587c4b83512be0c}{%
+           family={Ciric},
+           familyi={C\bibinitperiod},
+           given={Rastko},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cfcaa3b8cc739bd4756c6854731a4577}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={William\bibnamedelima H.},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b39957bf176ced639bb909605e1fb4a8}{%
+           family={Lorenz},
+           familyi={L\bibinitperiod},
+           given={Romy},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9690af972845ee41959a41c2eb56dd1}{%
+           family={Goncalves},
+           familyi={G\bibinitperiod},
+           given={Mathias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa83de5723e2c57835c9302422909b52}{%
+           family={{MacNicol}},
+           familyi={M\bibinitperiod},
+           given={Eilidh\bibnamedelima E.},
+           giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f629153ba111aa5f9ad5155beb0dd3e1}{%
+           family={Markiewicz},
+           familyi={M\bibinitperiod},
+           given={Christopher\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2fb284cc447dda0b361d24f661475ce}{%
+           family={Halchenko},
+           familyi={H\bibinitperiod},
+           given={Yaroslav\bibnamedelima O.},
+           giveni={Y\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76dba40c9142166c5540f708b967f13d}{%
+           family={Ghosh},
+           familyi={G\bibinitperiod},
+           given={Satrajit\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37fd6602fafa336c9f4f082ecd471b6c}{%
+           family={Gorgolewski},
+           familyi={G\bibinitperiod},
+           given={Krzysztof\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21ffb9bf6762df0fb232215885be17e1}{%
+           family={Poldrack},
+           familyi={P\bibinitperiod},
+           given={Russell\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bad82335174e52244c1c45aa43507b06}{%
+           family={Esteban},
+           familyi={E\bibinitperiod},
+           given={Oscar},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{964bd36ef3e04e89d66e885e7bce0ae2}
+      \strng{fullhash}{b8b4f710f5f990a3afac723e0466c53a}
+      \strng{bibnamehash}{964bd36ef3e04e89d66e885e7bce0ae2}
+      \strng{authorbibnamehash}{964bd36ef3e04e89d66e885e7bce0ae2}
+      \strng{authornamehash}{964bd36ef3e04e89d66e885e7bce0ae2}
+      \strng{authorfullhash}{b8b4f710f5f990a3afac723e0466c53a}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Reference anatomies of the brain (‘templates’) and corresponding atlases are the foundation for reporting standardized neuroimaging results. Currently, there is no registry of templates and atlases; therefore, the redistribution of these resources occurs either bundled within existing software or in ad hoc ways such as downloads from institutional sites and general-purpose data repositories. We introduce {TemplateFlow} as a publicly available framework for human and non-human brain models. The framework combines an open database with software for access, management, and vetting, allowing scientists to share their resources under {FAIR}—findable, accessible, interoperable, and reusable—principles. {TemplateFlow} enables multifaceted insights into brains across species, and supports multiverse analyses testing whether results generalize across standard references, scales, and in the long term, species.}
+      \field{issn}{1548-7105}
+      \field{journaltitle}{Nature Methods}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{note}{Publisher: Nature Publishing Group}
+      \field{number}{12}
+      \field{shortjournal}{Nat Methods}
+      \field{shorttitle}{{TemplateFlow}}
+      \field{title}{{TemplateFlow}: {FAIR}-sharing of multi-scale, multi-species brain models}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{19}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1568\bibrangedash 1571}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/s41592-022-01681-2
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/austin/snap/zotero-snap/common/Zotero/storage/6SK2KWIQ/Ciric et al. - 2022 - TemplateFlow FAIR-sharing of multi-scale, multi-species brain models.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41592-022-01681-2
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41592-022-01681-2
+      \endverb
+      \keyw{Computational neuroscience,Databases,Image processing,Software,Translational research}
+    \endentry
+    \entry{Nilearn}{software}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d9ff014905c012fe3964d2b2a0d3d2d6}{%
+           family={contributors},
+           familyi={c\bibinitperiod},
+           given={Nilearn},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d9ff014905c012fe3964d2b2a0d3d2d6}
+      \strng{fullhash}{d9ff014905c012fe3964d2b2a0d3d2d6}
+      \strng{bibnamehash}{d9ff014905c012fe3964d2b2a0d3d2d6}
+      \strng{authorbibnamehash}{d9ff014905c012fe3964d2b2a0d3d2d6}
+      \strng{authornamehash}{d9ff014905c012fe3964d2b2a0d3d2d6}
+      \strng{authorfullhash}{d9ff014905c012fe3964d2b2a0d3d2d6}
+      \field{sortinit}{c}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{nilearn}}
+      \verb{doi}
+      \verb https://doi.org/10.5281/zenodo.8397156
+      \endverb
+      \verb{urlraw}
+      \verb https://github.com/nilearn/nilearn
+      \endverb
+      \verb{url}
+      \verb https://github.com/nilearn/nilearn
+      \endverb
+    \endentry
+    \entry{esteban_fmriprep_2019}{article}{}
+      \name{author}{16}{}{%
+        {{un=0,uniquepart=base,hash=bad82335174e52244c1c45aa43507b06}{%
+           family={Esteban},
+           familyi={E\bibinitperiod},
+           given={Oscar},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f629153ba111aa5f9ad5155beb0dd3e1}{%
+           family={Markiewicz},
+           familyi={M\bibinitperiod},
+           given={Christopher\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef5eef041920e580008ab9a16a8e9e66}{%
+           family={Blair},
+           familyi={B\bibinitperiod},
+           given={Ross\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd7225af7e03d49e604a740da1d5b036}{%
+           family={Moodie},
+           familyi={M\bibinitperiod},
+           given={Craig\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=687feab2947e3196e37f5a5bfa452564}{%
+           family={Isik},
+           familyi={I\bibinitperiod},
+           given={A.\bibnamedelimi Ilkay},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=885ec85ed4ff8592bd32e1ed7b958bef}{%
+           family={Erramuzpe},
+           familyi={E\bibinitperiod},
+           given={Asier},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb62120a928afd35a5f47434f21a1640}{%
+           family={Kent},
+           familyi={K\bibinitperiod},
+           given={James\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9690af972845ee41959a41c2eb56dd1}{%
+           family={Goncalves},
+           familyi={G\bibinitperiod},
+           given={Mathias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2f252ee8b737cfd05345bd2da19e5f41}{%
+           family={{DuPre}},
+           familyi={D\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=425d8cc2d55a57ab1ee5aca7c4b8501d}{%
+           family={Snyder},
+           familyi={S\bibinitperiod},
+           given={Madeleine},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9fa9120e1f7d3ad2cf55b2340f31d4b}{%
+           family={Oya},
+           familyi={O\bibinitperiod},
+           given={Hiroyuki},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76dba40c9142166c5540f708b967f13d}{%
+           family={Ghosh},
+           familyi={G\bibinitperiod},
+           given={Satrajit\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=139ff233b3624a3c665fedc20ef6d544}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={Jessey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9d3ea936d9978cf9365d635832fad37}{%
+           family={Durnez},
+           familyi={D\bibinitperiod},
+           given={Joke},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21ffb9bf6762df0fb232215885be17e1}{%
+           family={Poldrack},
+           familyi={P\bibinitperiod},
+           given={Russell\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37fd6602fafa336c9f4f082ecd471b6c}{%
+           family={Gorgolewski},
+           familyi={G\bibinitperiod},
+           given={Krzysztof\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{baf7b84c303c23e9582d5aa95dc783ea}
+      \strng{fullhash}{aa9c7ba987b86ccaffe49a5c82ba4342}
+      \strng{bibnamehash}{baf7b84c303c23e9582d5aa95dc783ea}
+      \strng{authorbibnamehash}{baf7b84c303c23e9582d5aa95dc783ea}
+      \strng{authornamehash}{baf7b84c303c23e9582d5aa95dc783ea}
+      \strng{authorfullhash}{aa9c7ba987b86ccaffe49a5c82ba4342}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Preprocessing of functional magnetic resonance imaging ({fMRI}) involves numerous steps to clean and standardize the data before statistical analysis. Generally, researchers create ad hoc preprocessing workflows for each dataset, building upon a large inventory of available tools. The complexity of these workflows has snowballed with rapid advances in acquisition and processing. We introduce {fMRIPrep}, an analysis-agnostic tool that addresses the challenge of robust and reproducible preprocessing for {fMRI} data. {fMRIPrep} automatically adapts a best-in-breed workflow to the idiosyncrasies of virtually any dataset, ensuring high-quality preprocessing without manual intervention. By introducing visual assessment checkpoints into an iterative integration framework for software testing, we show that {fMRIPrep} robustly produces high-quality results on a diverse {fMRI} data collection. Additionally, {fMRIPrep} introduces less uncontrolled spatial smoothness than observed with commonly used preprocessing tools. {fMRIPrep} equips neuroscientists with an easy-to-use and transparent preprocessing workflow, which can help ensure the validity of inference and the interpretability of results.}
+      \field{issn}{1548-7105}
+      \field{journaltitle}{Nature Methods}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{note}{Publisher: Nature Publishing Group}
+      \field{number}{1}
+      \field{shortjournal}{Nat Methods}
+      \field{shorttitle}{{fMRIPrep}}
+      \field{title}{{fMRIPrep}: a robust preprocessing pipeline for functional {MRI}}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{16}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{111\bibrangedash 116}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1038/s41592-018-0235-4
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/austin/snap/zotero-snap/common/Zotero/storage/76CGFKCR/Esteban et al. - 2019 - fMRIPrep a robust preprocessing pipeline for functional MRI.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41592-018-0235-4
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41592-018-0235-4
+      \endverb
+      \keyw{Computational neuroscience,Image processing,Magnetic resonance imaging,Software,Standards}
+    \endentry
+    \entry{fonov_unbiased_2009}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=691302bd37be7c6f29b9a06f85513016}{%
+           family={Fonov},
+           familyi={F\bibinitperiod},
+           given={{VS}},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9afb5514deeaace8449fb1950632b8fc}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={{AC}},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9608ee774d5251c73da3d942ee3b3c76}{%
+           family={{McKinstry}},
+           familyi={M\bibinitperiod},
+           given={{RC}},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=87b59f85bedc5dc0967185d7c2b1ab28}{%
+           family={Almli},
+           familyi={A\bibinitperiod},
+           given={{CR}},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=573808ce6907798ead179cd4dfd02630}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={{DL}},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{78dcbad2a6242970c0955f94b4f98503}
+      \strng{fullhash}{4a6eb8c9ccce40f05770cb63604e0744}
+      \strng{bibnamehash}{78dcbad2a6242970c0955f94b4f98503}
+      \strng{authorbibnamehash}{78dcbad2a6242970c0955f94b4f98503}
+      \strng{authornamehash}{78dcbad2a6242970c0955f94b4f98503}
+      \strng{authorfullhash}{4a6eb8c9ccce40f05770cb63604e0744}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{1053-8119}
+      \field{journaltitle}{{NeuroImage}}
+      \field{month}{7}
+      \field{series}{Organization for Human Brain Mapping 2009 Annual Meeting}
+      \field{shortjournal}{{NeuroImage}}
+      \field{title}{Unbiased nonlinear average age-appropriate brain templates from birth to adulthood}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{47}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{S102}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/S1053-8119(09)70884-5
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1053811909708845
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1053811909708845
+      \endverb
+    \endentry
+    \entry{gorgolewski_nipype_2011}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=7c6283c27b8eb014738736f0b8c7519f}{%
+           family={Gorgolewski},
+           familyi={G\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4102069ab673e606142853559dd9c487}{%
+           family={Burns},
+           familyi={B\bibinitperiod},
+           given={Christopher\bibnamedelima D.},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3afe40090d7a8b36b4a0840e244c8ff}{%
+           family={Madison},
+           familyi={M\bibinitperiod},
+           given={Cindee},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d64b00203a30ca339bf38b26924703c5}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Dav},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2fb284cc447dda0b361d24f661475ce}{%
+           family={Halchenko},
+           familyi={H\bibinitperiod},
+           given={Yaroslav\bibnamedelima O.},
+           giveni={Y\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c809239417dcb9aef9b906eff53933d}{%
+           family={Waskom},
+           familyi={W\bibinitperiod},
+           given={Michael\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76dba40c9142166c5540f708b967f13d}{%
+           family={Ghosh},
+           familyi={G\bibinitperiod},
+           given={Satrajit\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{635c6b511d0a5fd995ba83063a2b2ce8}
+      \strng{fullhash}{da88a87f3953c7f17d03710b054832c2}
+      \strng{bibnamehash}{635c6b511d0a5fd995ba83063a2b2ce8}
+      \strng{authorbibnamehash}{635c6b511d0a5fd995ba83063a2b2ce8}
+      \strng{authornamehash}{635c6b511d0a5fd995ba83063a2b2ce8}
+      \strng{authorfullhash}{da88a87f3953c7f17d03710b054832c2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Current neuroimaging software offer users an incredible opportunity to analyze their data in different ways, with different underlying assumptions. Several sophisticated software packages (e.g., {AFNI}, {BrainVoyager}, {FSL}, {FreeSurfer}, Nipy, R, {SPM}) are used to process and analyze large and often diverse (highly multi-dimensional) data. However, this heterogeneous collection of specialized applications creates several issues that hinder replicable, efficient, and optimal use of neuroimaging analysis approaches: (1) No uniform access to neuroimaging analysis software and usage information; (2) No framework for comparative algorithm development and dissemination; (3) Personnel turnover in laboratories often limits methodological continuity and training new personnel takes time; (4) Neuroimaging software packages do not address computational efficiency; and (5) Methods sections in journal articles are inadequate for reproducing results. To address these issues, we present Nipype (Neuroimaging in Python: Pipelines and Interfaces; http://nipy.org/nipype), an open-source, community-developed, software package, and scriptable library. Nipype solves the issues by providing Interfaces to existing neuroimaging software with uniform usage semantics and by facilitating interaction between these packages using Workflows. Nipype provides an environment that encourages interactive exploration of algorithms, eases the design of Workflows within and between packages, allows rapid comparative development of algorithms and reduces the learning curve necessary to use different packages. Nipype supports both local and remote execution on multi-core machines and clusters, without additional scripting. Nipype is Berkeley Software Distribution licensed, allowing anyone unrestricted usage. An open, community-driven development philosophy allows the software to quickly adapt and address the varied needs of the evolving neuroimaging community, especially in the context of increasing demand for reproducible research.}
+      \field{issn}{1662-5196}
+      \field{journaltitle}{Frontiers in Neuroinformatics}
+      \field{shortjournal}{Front Neuroinform}
+      \field{shorttitle}{Nipype}
+      \field{title}{Nipype: a flexible, lightweight and extensible neuroimaging data processing framework in python}
+      \field{volume}{5}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{13}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fninf.2011.00013
+      \endverb
+      \verb{file}
+      \verb Full Text:/home/austin/snap/zotero-snap/common/Zotero/storage/SH7TKE7K/Gorgolewski et al. - 2011 - Nipype a flexible, lightweight and extensible neuroimaging data processing framework in python.pdf:application/pdf
+      \endverb
+      \keyw{data processing,neuroimaging,pipeline,Python,reproducible research,workflow}
+    \endentry
+    \entry{greve_accurate_2009}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f880031e4cc232b5d1f3dfb47858afd6}{%
+           family={Greve},
+           familyi={G\bibinitperiod},
+           given={Douglas\bibnamedelima N.},
+           giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e4210e5a0305aced45740a9ccb645743}{%
+           family={Fischl},
+           familyi={F\bibinitperiod},
+           given={Bruce},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d0fef06bc55183cb4a51c9e3f36d021d}
+      \strng{fullhash}{d0fef06bc55183cb4a51c9e3f36d021d}
+      \strng{bibnamehash}{d0fef06bc55183cb4a51c9e3f36d021d}
+      \strng{authorbibnamehash}{d0fef06bc55183cb4a51c9e3f36d021d}
+      \strng{authornamehash}{d0fef06bc55183cb4a51c9e3f36d021d}
+      \strng{authorfullhash}{d0fef06bc55183cb4a51c9e3f36d021d}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The fine spatial scales of the structures in the human brain represent an enormous challenge to the successful integration of information from different images for both within- and between-subject analysis. While many algorithms to register image pairs from the same subject exist, visual inspection shows that their accuracy and robustness to be suspect, particularly when there are strong intensity gradients and/or only part of the brain is imaged. This paper introduces a new algorithm called Boundary-Based Registration, or {BBR}. The novelty of {BBR} is that it treats the two images very differently. The reference image must be of sufficient resolution and quality to extract surfaces that separate tissue types. The input image is then aligned to the reference by maximizing the intensity gradient across tissue boundaries. Several lower quality images can be aligned through their alignment with the reference. Visual inspection and {fMRI} results show that {BBR} is more accurate than correlation ratio or normalized mutual information and is considerably more robust to even strong intensity inhomogeneities. {BBR} also excels at aligning partial-brain images to whole-brain images, a domain in which existing registration algorithms frequently fail. Even in the limit of registering a single slice, we show the {BBR} results to be robust and accurate.}
+      \field{day}{15}
+      \field{issn}{1053-8119}
+      \field{journaltitle}{{NeuroImage}}
+      \field{month}{10}
+      \field{number}{1}
+      \field{shortjournal}{{NeuroImage}}
+      \field{title}{Accurate and robust brain image alignment using boundary-based registration}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{48}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{63\bibrangedash 72}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.neuroimage.2009.06.060
+      \endverb
+      \verb{file}
+      \verb Accepted Version:/home/austin/snap/zotero-snap/common/Zotero/storage/I2GJJY7H/Greve and Fischl - 2009 - Accurate and robust brain image alignment using boundary-based registration.pdf:application/pdf;ScienceDirect Snapshot:/home/austin/snap/zotero-snap/common/Zotero/storage/AXL7J96Z/S1053811909006752.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1053811909006752
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1053811909006752
+      \endverb
+    \endentry
+    \entry{hutton_image_2002}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=4819e73f8076fd4134687d7faa36464d}{%
+           family={Hutton},
+           familyi={H\bibinitperiod},
+           given={Chloe},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58e902212b6d3677da8b687964ef4f05}{%
+           family={Bork},
+           familyi={B\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e30dfadf6058731f40ef39bc1eb6d8b3}{%
+           family={Josephs},
+           familyi={J\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b54a1ccf55519eb1977e18f08195899}{%
+           family={Deichmann},
+           familyi={D\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f62428d2d65bafab585e44b3607bc7c6}{%
+           family={Ashburner},
+           familyi={A\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd7bd3c4fbfe97303797f73f2e456b7a}{%
+           family={Turner},
+           familyi={T\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{97b52b379e9a741e8bef4e06ac32ff5f}
+      \strng{fullhash}{84c5c0687b5302d3f842f155b2ee12e7}
+      \strng{bibnamehash}{97b52b379e9a741e8bef4e06ac32ff5f}
+      \strng{authorbibnamehash}{97b52b379e9a741e8bef4e06ac32ff5f}
+      \strng{authornamehash}{97b52b379e9a741e8bef4e06ac32ff5f}
+      \strng{authorfullhash}{84c5c0687b5302d3f842f155b2ee12e7}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{10538119}
+      \field{journaltitle}{{NeuroImage}}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{1}
+      \field{shortjournal}{{NeuroImage}}
+      \field{shorttitle}{Image Distortion Correction in {fMRI}}
+      \field{title}{Image Distortion Correction in {fMRI}: A Quantitative Evaluation}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{16}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{217\bibrangedash 240}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1006/nimg.2001.1054
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1053811901910547
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1053811901910547
+      \endverb
+    \endentry
+    \entry{jenkinson_improved_2002}{article}{}
+      \name{author}{4}{ul=2}{%
+        {{un=0,uniquepart=base,hash=02d16eb5d8b0d0af1320675587ee5db5}{%
+           family={Jenkinson},
+           familyi={J\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d477f03e32a47258db6ba86a01337d5}{%
+           family={Bannister},
+           familyi={B\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b543ac15de34fc7c831ff5619b340256}{%
+           family={Brady},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0335390e6dcad77f0091d57516ec815}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c5eae81f3c5bfe69fd3cd052351d503a}
+      \strng{fullhash}{a656a2144802aa4111fb7685f5753ae0}
+      \strng{bibnamehash}{c5eae81f3c5bfe69fd3cd052351d503a}
+      \strng{authorbibnamehash}{c5eae81f3c5bfe69fd3cd052351d503a}
+      \strng{authornamehash}{c5eae81f3c5bfe69fd3cd052351d503a}
+      \strng{authorfullhash}{a656a2144802aa4111fb7685f5753ae0}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Linear registration and motion correction are important components of structural and functional brain image analysis. Most modern methods optimize some intensity-based cost function to determine the best registration. To date, little attention has been focused on the optimization method itself, even though the success of most registration methods hinges on the quality of this optimization. This paper examines the optimization process in detail and demonstrates that the commonly used multiresolution local optimization methods can, and do, get trapped in local minima. To address this problem, two approaches are taken: (1) to apodize the cost function and (2) to employ a novel hybrid global–local optimization method. This new optimization method is specifically designed for registering whole brain images. It substantially reduces the likelihood of producing misregistrations due to being trapped by local minima. The increased robustness of the method, compared to other commonly used methods, is demonstrated by a consistency test. In addition, the accuracy of the registration is demonstrated by a series of experiments with motion correction. These motion correction experiments also investigate how the results are affected by different cost functions and interpolation methods.}
+      \field{day}{1}
+      \field{issn}{1053-8119}
+      \field{journaltitle}{{NeuroImage}}
+      \field{month}{10}
+      \field{number}{2}
+      \field{shortjournal}{{NeuroImage}}
+      \field{title}{Improved Optimization for the Robust and Accurate Linear Registration and Motion Correction of Brain Images}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{17}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{825\bibrangedash 841}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1006/nimg.2002.1132
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/home/austin/snap/zotero-snap/common/Zotero/storage/JJQLMIFG/S1053811902911328.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1053811902911328
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1053811902911328
+      \endverb
+      \keyw{accuracy,affine transformation,global optimization,motion correction,multimodal registration,multiresolution search,robustness}
+    \endentry
+    \entry{jenkinson_global_2001}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=02d16eb5d8b0d0af1320675587ee5db5}{%
+           family={Jenkinson},
+           familyi={J\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=2,uniquepart=given,hash=c0335390e6dcad77f0091d57516ec815}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{3b9c28cfc4bbd0a630102d6011d7d950}
+      \strng{fullhash}{3b9c28cfc4bbd0a630102d6011d7d950}
+      \strng{bibnamehash}{3b9c28cfc4bbd0a630102d6011d7d950}
+      \strng{authorbibnamehash}{3b9c28cfc4bbd0a630102d6011d7d950}
+      \strng{authornamehash}{3b9c28cfc4bbd0a630102d6011d7d950}
+      \strng{authorfullhash}{3b9c28cfc4bbd0a630102d6011d7d950}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Registration is an important component of medical image analysis and for analysing large amounts of data it is desirable to have fully automatic registration methods. Many different automatic registration methods have been proposed to date, and almost all share a common mathematical framework — one of optimising a cost function. To date little attention has been focused on the optimisation method itself, even though the success of most registration methods hinges on the quality of this optimisation. This paper examines the assumptions underlying the problem of registration for brain images using inter-modal voxel similarity measures. It is demonstrated that the use of local optimisation methods together with the standard multi-resolution approach is not sufficient to reliably find the global minimum. To address this problem, a global optimisation method is proposed that is specifically tailored to this form of registration. A full discussion of all the necessary implementation details is included as this is an important part of any practical method. Furthermore, results are presented for inter-modal, inter-subject registration experiments that show that the proposed method is more reliable at finding the global minimum than several of the currently available registration packages in common usage.}
+      \field{day}{1}
+      \field{issn}{1361-8415}
+      \field{journaltitle}{Medical Image Analysis}
+      \field{month}{6}
+      \field{number}{2}
+      \field{shortjournal}{Medical Image Analysis}
+      \field{title}{A global optimisation method for robust affine registration of brain images}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{5}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{143\bibrangedash 156}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/S1361-8415(01)00036-6
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1361841501000366
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1361841501000366
+      \endverb
+      \keyw{Affine transformation,Global optimisation,Multi-resolution search,Multimodal registration,Robustness}
+    \endentry
+    \entry{mathur_emotional_2015}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=ca8605aee9f300b9f1858edd6e6a31ac}{%
+           family={Mathur},
+           familyi={M\bibinitperiod},
+           given={Avantika},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2029bee2831f375c92ae0d707cb88538}{%
+           family={Vijayakumar},
+           familyi={V\bibinitperiod},
+           given={Suhas\bibnamedelima H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89c734cde9208789f6a55a2214e947b6}{%
+           family={Chakrabarti},
+           familyi={C\bibinitperiod},
+           given={Bhismadev},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=961e0ff93effc5ef3f2e113c963038d2}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Nandini\bibnamedelima C.},
+           giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ba34af31bf139bf727251eb12a3fdbfa}
+      \strng{fullhash}{f89760cfe8d9d7c653435c649b4deac0}
+      \strng{bibnamehash}{ba34af31bf139bf727251eb12a3fdbfa}
+      \strng{authorbibnamehash}{ba34af31bf139bf727251eb12a3fdbfa}
+      \strng{authornamehash}{ba34af31bf139bf727251eb12a3fdbfa}
+      \strng{authorfullhash}{f89760cfe8d9d7c653435c649b4deac0}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In Indian classical music, ragas constitute specific combinations of tonic intervals potentially capable of evoking distinct emotions. A raga composition is typically presented in two modes, namely, alaap and gat. Alaap is the note by note delineation of a raga bound by a slow tempo, but not bound by a rhythmic cycle. Gat on the other hand is rendered at a faster tempo and follows a rhythmic cycle. Our primary objective was to (1) discriminate the emotions experienced across alaap and gat of ragas, (2) investigate the association of tonic intervals, tempo and rhythmic regularity with emotional response. 122 participants rated their experienced emotion across alaap and gat of twelve ragas. Analysis of the emotional responses revealed that (1) ragas elicit distinct emotions across the two presentation modes, and (2) specific tonic intervals are robust predictors of emotional response. Specifically, our results showed that the ‘minor second’ is a direct predictor of negative valence. (3) Tonality determines the emotion experienced for a raga where as rhythmic regularity and tempo modulate levels of arousal. Our findings provide new insights into the emotional response to Indian ragas and the impact of tempo, rhythmic regularity and tonality on it.}
+      \field{day}{30}
+      \field{issn}{1664-1078}
+      \field{journaltitle}{Frontiers in Psychology}
+      \field{month}{4}
+      \field{note}{Publisher: Frontiers}
+      \field{shortjournal}{Front. Psychol.}
+      \field{shorttitle}{Emotional responses to Hindustani raga music}
+      \field{title}{Emotional responses to Hindustani raga music: the role of musical structure}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{6}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.3389/fpsyg.2015.00513
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/austin/snap/zotero-snap/common/Zotero/storage/MKEPY8DI/Mathur et al. - 2015 - Emotional responses to Hindustani raga music the role of musical structure.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.00513/full
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.00513/full
+      \endverb
+      \keyw{emotion,Music,ragas,rhythmic regularity,tempo,tonality}
+    \endentry
+    \entry{patriat_improved_2017}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c24b98664c695d7758c676edf67a914b}{%
+           family={Patriat},
+           familyi={P\bibinitperiod},
+           given={Rémi},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9fe47772ed3c9421039b2fe82ab84bab}{%
+           family={Reynolds},
+           familyi={R\bibinitperiod},
+           given={Richard\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16c9a33b2e9cfcc4bf16031f68e3c42e}{%
+           family={Birn},
+           familyi={B\bibinitperiod},
+           given={Rasmus\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5e22ce36c225d4b6c610c4af43bd8c95}
+      \strng{fullhash}{5e22ce36c225d4b6c610c4af43bd8c95}
+      \strng{bibnamehash}{5e22ce36c225d4b6c610c4af43bd8c95}
+      \strng{authorbibnamehash}{5e22ce36c225d4b6c610c4af43bd8c95}
+      \strng{authornamehash}{5e22ce36c225d4b6c610c4af43bd8c95}
+      \strng{authorfullhash}{5e22ce36c225d4b6c610c4af43bd8c95}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Head motion is a significant source of noise in the estimation of functional connectivity from resting-state functional {MRI} (rs-{fMRI}). Current strategies to reduce this noise include image realignment, censoring time points corrupted by motion, and including motion realignment parameters and their derivatives as additional nuisance regressors in the general linear model. However, this nuisance regression approach assumes that the motion-induced signal changes are linearly related to the estimated realignment parameters, which is not always the case. In this study we develop an improved model of motion-related signal changes, where nuisance regressors are formed by first rotating and translating a single brain volume according to the estimated motion, re-registering the data, and then performing a principal components analysis ({PCA}) on the resultant time series of both moved and re-registered data. We show that these “Motion Simulated ({MotSim})” regressors account for significantly greater fraction of variance, result in higher temporal signal-to-noise, and lead to functional connectivity estimates that are less affected by motion compared to the most common current approach of using the realignment parameters and their derivatives as nuisance regressors. This improvement should lead to more accurate estimates of functional connectivity, particularly in populations where motion is prevalent, such as patients and young children.}
+      \field{day}{1}
+      \field{issn}{1053-8119}
+      \field{journaltitle}{{NeuroImage}}
+      \field{month}{1}
+      \field{shortjournal}{{NeuroImage}}
+      \field{title}{An improved model of motion-related signal changes in {fMRI}}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{144}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{74\bibrangedash 82}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.neuroimage.2016.08.051
+      \endverb
+      \verb{file}
+      \verb Accepted Version:/home/austin/snap/zotero-snap/common/Zotero/storage/E4GYWXQJ/Patriat et al. - 2017 - An improved model of motion-related signal changes in fMRI.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1053811916304360
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1053811916304360
+      \endverb
+      \keyw{Correction,Methods,Motion,Rs-{fMRI}}
+    \endentry
+    \entry{power_methods_2014}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=e51e858ade62f302b3e6cb662130dcb5}{%
+           family={Power},
+           familyi={P\bibinitperiod},
+           given={Jonathan\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d12e54ff3abe2baa845e79c4af9a6dbe}{%
+           family={Mitra},
+           familyi={M\bibinitperiod},
+           given={Anish},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80b697a4d0ae93d6e6d8bbe07da385ca}{%
+           family={Laumann},
+           familyi={L\bibinitperiod},
+           given={Timothy\bibnamedelima O.},
+           giveni={T\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=051aa0d7e63c1b058d6b82c08085721a}{%
+           family={Snyder},
+           familyi={S\bibinitperiod},
+           given={Abraham\bibnamedelima Z.},
+           giveni={A\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8d2526e6f15b27b60be0d78f9a737fe}{%
+           family={Schlaggar},
+           familyi={S\bibinitperiod},
+           given={Bradley\bibnamedelima L.},
+           giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d4c10c2085851c66aeaec504ad662fca}{%
+           family={Petersen},
+           familyi={P\bibinitperiod},
+           given={Steven\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c96dc5d93a5aae46d9293c2f45be39d3}
+      \strng{fullhash}{c0bb0e9afb3531c47c40d0428e25b148}
+      \strng{bibnamehash}{c96dc5d93a5aae46d9293c2f45be39d3}
+      \strng{authorbibnamehash}{c96dc5d93a5aae46d9293c2f45be39d3}
+      \strng{authornamehash}{c96dc5d93a5aae46d9293c2f45be39d3}
+      \strng{authorfullhash}{c0bb0e9afb3531c47c40d0428e25b148}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Head motion systematically alters correlations in resting state functional connectivity {fMRI} ({RSFC}). In this report we examine impact of motion on signal intensity and {RSFC} correlations. We find that motion-induced signal changes (1) are often complex and variable waveforms, (2) are often shared across nearly all brain voxels, and (3) often persist more than 10s after motion ceases. These signal changes, both during and after motion, increase observed {RSFC} correlations in a distance-dependent manner. Motion-related signal changes are not removed by a variety of motion-based regressors, but are effectively reduced by global signal regression. We link several measures of data quality to motion, changes in signal intensity, and changes in {RSFC} correlations. We demonstrate that improvements in data quality measures during processing may represent cosmetic improvements rather than true correction of the data. We demonstrate a within-subject, censoring-based artifact removal strategy based on volume censoring that reduces group differences due to motion to chance levels. We note conditions under which group-level regressions do and do not correct motion-related effects.}
+      \field{day}{1}
+      \field{issn}{1095-9572}
+      \field{journaltitle}{{NeuroImage}}
+      \field{month}{1}
+      \field{shortjournal}{Neuroimage}
+      \field{title}{Methods to detect, characterize, and remove motion artifact in resting state {fMRI}}
+      \field{volume}{84}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{320\bibrangedash 341}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1016/j.neuroimage.2013.08.048
+      \endverb
+      \verb{file}
+      \verb Accepted Version:/home/austin/snap/zotero-snap/common/Zotero/storage/SSAT4P43/Power et al. - 2014 - Methods to detect, characterize, and remove motion artifact in resting state fMRI.pdf:application/pdf
+      \endverb
+      \keyw{Adolescent,Adult,Algorithms,Artifact,Artifacts,Brain,Brain Mapping,Female,Functional connectivity,Head Movements,Humans,Image Enhancement,Image Interpretation,Computer-Assisted,Magnetic Resonance Imaging,Male,Motion,Movement,{MRI},Pattern Recognition,Automated,Reproducibility of Results,Rest,Resting state,Sensitivity and Specificity,Subtraction Technique,Young Adult}
+    \endentry
+    \entry{russell_circumplex_1980}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ee6848fb2fac892f7b0fe7674e81f502}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={James\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ee6848fb2fac892f7b0fe7674e81f502}
+      \strng{fullhash}{ee6848fb2fac892f7b0fe7674e81f502}
+      \strng{bibnamehash}{ee6848fb2fac892f7b0fe7674e81f502}
+      \strng{authorbibnamehash}{ee6848fb2fac892f7b0fe7674e81f502}
+      \strng{authornamehash}{ee6848fb2fac892f7b0fe7674e81f502}
+      \strng{authorfullhash}{ee6848fb2fac892f7b0fe7674e81f502}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1939-1315, 0022-3514}
+      \field{journaltitle}{Journal of Personality and Social Psychology}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{6}
+      \field{shortjournal}{Journal of Personality and Social Psychology}
+      \field{title}{A circumplex model of affect.}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{39}
+      \field{year}{1980}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1161\bibrangedash 1178}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1037/h0077714
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.apa.org/doi/10.1037/h0077714
+      \endverb
+      \verb{url}
+      \verb https://doi.apa.org/doi/10.1037/h0077714
+      \endverb
+    \endentry
+    \entry{satterthwaite_improved_2013}{article}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=31908c78eb667d22e4929589c376a1f0}{%
+           family={Satterthwaite},
+           familyi={S\bibinitperiod},
+           given={Theodore\bibnamedelima D.},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb19bca13b069ebcda9476ec04274022}{%
+           family={Elliott},
+           familyi={E\bibinitperiod},
+           given={Mark\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=072deca7eecd81b96bbff6257a43a634}{%
+           family={Gerraty},
+           familyi={G\bibinitperiod},
+           given={Raphael\bibnamedelima T.},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da8fcacf488ee1b3a6db1b626c8d94a9}{%
+           family={Ruparel},
+           familyi={R\bibinitperiod},
+           given={Kosha},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ffabcf555ad4556e1f07124043de8ab}{%
+           family={Loughead},
+           familyi={L\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e37d10d89202d960f3528fecb229c5d8}{%
+           family={Calkins},
+           familyi={C\bibinitperiod},
+           given={Monica\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=68306f13a064ab598900c6672b5815c2}{%
+           family={Eickhoff},
+           familyi={E\bibinitperiod},
+           given={Simon\bibnamedelima B.},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4e073d2ed450f421c8f7d4400ba5b29}{%
+           family={Hakonarson},
+           familyi={H\bibinitperiod},
+           given={Hakon},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f93af6770e3dbae6715abc48b37f63a}{%
+           family={Gur},
+           familyi={G\bibinitperiod},
+           given={Ruben\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37386d0e09401975f89513d66c436e03}{%
+           family={Gur},
+           familyi={G\bibinitperiod},
+           given={Raquel\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54c45732c354c555788ec640e9504aef}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Daniel\bibnamedelima H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f266bdf144c14c26f179b4c31785b209}
+      \strng{fullhash}{3b118a0dba424eee171b41021763e508}
+      \strng{bibnamehash}{f266bdf144c14c26f179b4c31785b209}
+      \strng{authorbibnamehash}{f266bdf144c14c26f179b4c31785b209}
+      \strng{authornamehash}{f266bdf144c14c26f179b4c31785b209}
+      \strng{authorfullhash}{3b118a0dba424eee171b41021763e508}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Several recent reports in large, independent samples have demonstrated the influence of motion artifact on resting-state functional connectivity {MRI} (rsfc-{MRI}). Standard rsfc-{MRI} preprocessing typically includes regression of confounding signals and band-pass filtering. However, substantial heterogeneity exists in how these techniques are implemented across studies, and no prior study has examined the effect of differing approaches for the control of motion-induced artifacts. To better understand how in-scanner head motion affects rsfc-{MRI} data, we describe the spatial, temporal, and spectral characteristics of motion artifacts in a sample of 348 adolescents. Analyses utilize a novel approach for describing head motion on a voxelwise basis. Next, we systematically evaluate the efficacy of a range of confound regression and filtering techniques for the control of motion-induced artifacts. Results reveal that the effectiveness of preprocessing procedures on the control of motion is heterogeneous, and that improved preprocessing provides a substantial benefit beyond typical procedures. These results demonstrate that the effect of motion on rsfc-{MRI} can be substantially attenuated through improved preprocessing procedures, but not completely removed.}
+      \field{day}{1}
+      \field{issn}{1053-8119}
+      \field{journaltitle}{{NeuroImage}}
+      \field{month}{1}
+      \field{shortjournal}{{NeuroImage}}
+      \field{title}{An improved framework for confound regression and filtering for control of motion artifact in the preprocessing of resting-state functional connectivity data}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{64}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{240\bibrangedash 256}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/j.neuroimage.2012.08.052
+      \endverb
+      \verb{file}
+      \verb Accepted Version:/home/austin/snap/zotero-snap/common/Zotero/storage/M69KRIGG/Satterthwaite et al. - 2013 - An improved framework for confound regression and filtering for control of motion artifact in the pr.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1053811912008609
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1053811912008609
+      \endverb
+      \keyw{Adolescence,Artifact,Connectivity,Connectome,Development,{fMRI},Motion,Network,Resting-state}
+    \endentry
+    \entry{InterAffectTravel}{unpublished}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ce3e60914967cb830e93482f93ea1b44}{%
+           family={Tripathi},
+           familyi={T\bibinitperiod},
+           given={Shashwati},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f01e7399e0b9c8a99548d0261f7bb5f2}{%
+           family={Varughese},
+           familyi={V\bibinitperiod},
+           given={Austin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50940ae2a3a72fee48194729cf75f37a}{%
+           family={Banerjee},
+           familyi={B\bibinitperiod},
+           given={Arpan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{41576f2b3c15dbc2fedccdd27d2f7dae}
+      \strng{fullhash}{41576f2b3c15dbc2fedccdd27d2f7dae}
+      \strng{bibnamehash}{41576f2b3c15dbc2fedccdd27d2f7dae}
+      \strng{authorbibnamehash}{41576f2b3c15dbc2fedccdd27d2f7dae}
+      \strng{authornamehash}{41576f2b3c15dbc2fedccdd27d2f7dae}
+      \strng{authorfullhash}{41576f2b3c15dbc2fedccdd27d2f7dae}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{In preparation}
+      \field{title}{Network features and dynamics reflect variability in affective dynamics associated with trait features}
+      \field{year}{2025}
+    \endentry
+    \entry{tustison_n4itk_2010}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=684aae3aed26099ede72fb89094abbc5}{%
+           family={Tustison},
+           familyi={T\bibinitperiod},
+           given={Nicholas\bibnamedelima J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f9420dc1611253faaa53552ffa45ffb4}{%
+           family={Avants},
+           familyi={A\bibinitperiod},
+           given={Brian\bibnamedelima B.},
+           giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e254743e9485b2e6e571dcd9d1589c10}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={Philip\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf6407fb52885e5c209a01f7c19ac29f}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Yuanjie},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=be17e1d992e9ee749ca52025fd387203}{%
+           family={Egan},
+           familyi={E\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0865af6e0989cf8a5768a668f097b23}{%
+           family={Yushkevich},
+           familyi={Y\bibinitperiod},
+           given={Paul\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dfc9247080478babae33740cfb0199db}{%
+           family={Gee},
+           familyi={G\bibinitperiod},
+           given={James\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4ad9b4f0d6c7279c187178d36a6c66d9}
+      \strng{fullhash}{3eabf53ee8f861bfc75d23f46b4a4bdd}
+      \strng{bibnamehash}{4ad9b4f0d6c7279c187178d36a6c66d9}
+      \strng{authorbibnamehash}{4ad9b4f0d6c7279c187178d36a6c66d9}
+      \strng{authornamehash}{4ad9b4f0d6c7279c187178d36a6c66d9}
+      \strng{authorfullhash}{3eabf53ee8f861bfc75d23f46b4a4bdd}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{A variant of the popular nonparametric nonuniform intensity normalization (N3) algorithm is proposed for bias field correction. Given the superb performance of N3 and its public availability, it has been the subject of several evaluation studies. These studies have demonstrated the importance of certain parameters associated with the B-spline least-squares fitting. We propose the substitution of a recently developed fast and robust B-spline approximation routine and a modified hierarchical optimization scheme for improved bias field correction over the original N3 algorithm. Similar to the N3 algorithm, we also make the source code, testing, and technical documentation of our contribution, which we denote as “N4ITK,” available to the public through the Insight Toolkit of the National Institutes of Health. Performance assessment is demonstrated using simulated data from the publicly available Brainweb database, hyperpolarized {\textasciicircum}3{\textbackslash}rm He lung image data, and 9.4T postmortem hippocampus data.}
+      \field{issn}{1558-254X}
+      \field{journaltitle}{{IEEE} Transactions on Medical Imaging}
+      \field{month}{6}
+      \field{number}{6}
+      \field{shorttitle}{N4ITK}
+      \field{title}{N4ITK: Improved N3 Bias Correction}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{29}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1310\bibrangedash 1320}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/TMI.2010.2046908
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/austin/snap/zotero-snap/common/Zotero/storage/U2NNZ57C/Tustison et al. - 2010 - N4ITK Improved N3 Bias Correction.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/5445030
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/5445030
+      \endverb
+      \keyw{Approximation algorithms,Availability,B-spline approximation,bias field,Brain modeling,Documentation,Image databases,inhomogeneity,Lungs,N3,Robustness,Spline,Testing}
+    \endentry
+    \entry{zhang_segmentation_2001}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1f26f664835ac6c347db22001b657f1a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75d9f30259852469ea78295bd7949f1e}{%
+           family={Brady},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=2,uniquepart=given,hash=2c528ec769079cc43320d94eb0c26a74}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{c8dfb90bc109d403da784acbd65f4f78}
+      \strng{fullhash}{c8dfb90bc109d403da784acbd65f4f78}
+      \strng{bibnamehash}{c8dfb90bc109d403da784acbd65f4f78}
+      \strng{authorbibnamehash}{c8dfb90bc109d403da784acbd65f4f78}
+      \strng{authornamehash}{c8dfb90bc109d403da784acbd65f4f78}
+      \strng{authorfullhash}{c8dfb90bc109d403da784acbd65f4f78}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The finite mixture ({FM}) model is the most commonly used model for statistical segmentation of brain magnetic resonance ({MR}) images because of its simple mathematical form and the piecewise constant nature of ideal brain {MR} images. However, being a histogram-based model, the {FM} has an intrinsic limitation-no spatial information is taken into account. This causes the {FM} model to work only on well-defined images with low levels of noise; unfortunately, this is often not the the case due to artifacts such as partial volume effect and bias field distortion. Under these conditions, {FM} model-based methods produce unreliable results. Here, the authors propose a novel hidden Markov random field ({HMRF}) model, which is a stochastic process generated by a {MRF} whose state sequence cannot be observed directly but which can be indirectly estimated through observations. Mathematically, it can be shown that the {FM} model is a degenerate version of the {HMRF} model. The advantage of the {HMRF} model derives from the way in which the spatial information is encoded through the mutual influences of neighboring sites. Although {MRF} modeling has been employed in {MR} image segmentation by other researchers, most reported methods are limited to using {MRF} as a general prior in an {FM} model-based approach. To fit the {HMRF} model, an {EM} algorithm is used. The authors show that by incorporating both the {HMRF} model and the {EM} algorithm into a {HMRF}-{EM} framework, an accurate and robust segmentation can be achieved. More importantly, the {HMRF}-{EM} framework can easily be combined with other techniques. As an example, the authors show how the bias field correction algorithm of Guillemaud and Brady (1997) can be incorporated into this framework to achieve a three-dimensional fully automated approach for brain {MR} image segmentation.}
+      \field{issn}{1558-254X}
+      \field{journaltitle}{{IEEE} Transactions on Medical Imaging}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Segmentation of brain {MR} images through a hidden Markov random field model and the expectation-maximization algorithm}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{20}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{45\bibrangedash 57}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/42.906424
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/austin/snap/zotero-snap/common/Zotero/storage/9MAZ7JZH/Zhang et al. - 2001 - Segmentation of brain MR images through a hidden Markov random field model and the expectation-maxim.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/906424
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/906424
+      \endverb
+      \keyw{Brain modeling,Expectation-maximization algorithms,Hidden Markov models,Image segmentation,Magnetic resonance,Mathematical model,Noise level,Robustness,State estimation,Stochastic processes}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
